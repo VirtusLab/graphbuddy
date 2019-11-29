@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  background-image: url("/banner_graph-buddy.jpg") !important;
+  background-position: center;
+  max-height: 380px;
+}
