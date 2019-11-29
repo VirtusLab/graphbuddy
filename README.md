@@ -18,6 +18,13 @@ Graph is augmented with additional useful data and features that will�
     - [Setting up the server](#setting-up-the-server)
     - [Installing plugin](#installing-plugin)
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
+    - [Opening webview](#opening-webview)
+    - [Basic flow](#basic-flow)
+        - [Navigating throught project](#navigating-through-project)
+        - [Webview interactions](#webview-interactions)
+    - [Graph Buddy features](#graph-buddy-features)
+        - [Code editor](#code-editor)
+        - [Webview](#webview)
 3. [Roadmap](#roadmap)
 4. [Contact us](#contact-us)
 
@@ -91,12 +98,38 @@ When clicking on code, Graph Buddy will add data accordingly to your code. Each 
 
 You can perform several interactions on the webview, that will help you understand the project semantics better. Choose between a range of features like: find path between nodes, show history of last 5 clicked elements, change pointing edges direction, filter by node kind, and many more!
 
-## List of all functionalities
+## Graph Buddy features
 
-Action | Description | Reaction
---- | --- | ---
---- | --- | ---
---- | --- | ---
+### Code editor
+
+1. When clicking inside code editor, corresponding nodes and connected to it edges will highlight
+2. By right-clicking on code, you have an option to render graph for both file and location, which will display either full graph per file or all connections for current location / symbol
+3. By opening extension menu from menu bar (IntelliJ) or right clicking (VSCode) you can reindex graph, which will reindex graph data source
+
+### Webview
+
+1. By clicking on nodes, graph will highlight corresponding nodes and edges
+2. By shift-clicking node, you remove it from the webview
+3. By double clicking on node you extend the graph by adding data corresponding with clicked node
+4. By switching layout in the navigation bar, you change rendering method of the graph (classic, vertical, horizontal)
+5. By selecting and unselecting level of returned graph checkboxes, you filter out corresponding nodes by kind.
+6. By checking / unchecking Inward checkbox, you switch between edges modes: inward and outward (edges pointing in or out)
+7. When hovering on a node a box shows up with node and context buddy info (if available)
+8. When using mouse scroll wheel, you either zoom in or out
+9. By checking Filter undefined nodes checkbox, you filter out nodes marked as undefined
+
+**Interface buttons**
+1. 3D Switcher - a network switcher, changing network manager between 2d and 3d graph (VSCode only!)
+2. Freeze button (lock icon) - freezes current graph, not allowing to extend it with data or remove data (filtering level still works)
+3. Display history (book icon) - displays history of up to last 5 clicked nodes
+4. Clean data (trash icon) - clears network data
+5. Find path (two connected dots icon) - opens up a model that allows to select two nodes, then upon accepting displays path between these two nodes
+6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges
+
+**... and extra interface icons in 2d manager:**
+1. Arrow icons - helps to navigate up/down/left/right through graph
+2. Zoom in / out icons - zooms graph in / out
+3. Reset zoom (magnifying glass icon) - resets graph zoom
 
 ---
 
