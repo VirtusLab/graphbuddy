@@ -1,10 +1,10 @@
-# Say hello to Graph Buddy!
+# Say hello to Graph Buddy!
 
-## Your new best pal to help you understand your code better
+## Your new best pal to help you understand your code better
 
 With today’s IDEs we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them.What if we could take a look at our code from above and – instead of seeing just text files – go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
 
-## How Graph Buddy could help you?
+## How Graph Buddy could help you?
 
 Project allows you to extract abstract semantic graph data from your project, giving you more context about the code.
 Graph is augmented with additional useful data and features that will help you better understand connections between code, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
@@ -30,7 +30,7 @@ Graph is augmented with additional useful data and features that will�
 
 ---
 
-# Installing and configuring the extension
+# Installing and configuring the extension
 
 Graph Buddy extension consist of two parts:
 1. Java server - handling all the data
@@ -41,7 +41,7 @@ To make it work, you need to pass three installation steps:
 2. Download and set up server
 3. Install plugin on your IDE
 
-## Your project configuration
+## Your project configuration
 
 Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your build.sbt add:
 
@@ -54,7 +54,7 @@ and recompile your project.
 
 *NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e via VSCode) these files will be added there automatically.
 
-## Setting up the server
+## Setting up the server
 
 Make sure you have the following installed:
 - [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
@@ -63,7 +63,7 @@ Make sure you have the following installed:
 To run the server, download and run following `.jar`
 - [Graph Buddy server]()
 
-## Installing plugin
+## Installing plugin
 
 Plugin is available for:
 - VSCode
