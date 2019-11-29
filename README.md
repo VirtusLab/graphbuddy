@@ -2,12 +2,15 @@
 
 ## Your new best pal to help you understand your code better
 
-With today’s IDEs we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them.What if we could take a look at our code from above and – instead of seeing just text files – go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
+With today’s IDEs we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them. What if we could take a look at our code from above and – instead of seeing just text files – go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
 
 ## How Graph Buddy could help you?
 
+
 Project allows you to extract abstract semantic graph data from your project, giving you more context about the code.
 Graph is augmented with additional useful data and features that will help you better understand connections between code, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
+
+![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
 
 ---
 
@@ -84,9 +87,13 @@ You can perform visual operations both clicking on your code and on the webview 
 
 Look after a 'GraphBuddy' tab in the bottom right corner and press it.
 
+![Graph Buddy User flow](assets/images/gifs/extension-1-openwebview-intellij.gif)
+
 **VSCode**
 
 Open `Command Palette` and type `> GraphBuddy: Show webview window`
+
+![Graph Buddy User flow](assets/images/gifs/extension-1-openwebview-vscode.gif)
 
 ## Basic flow
 
@@ -94,9 +101,15 @@ Open `Command Palette` and type `> GraphBuddy: Show webview window`
 
 When clicking on code, Graph Buddy will add data accordingly to your code. Each semantic type in your code is represented as *node* and the connection between them as *edge*. When navigating, the graph will progressively get bigger, showing all the semantic connections inside your project.
 
+![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
+
 ### Webview interactions
 
 You can perform several interactions on the webview, that will help you understand the project semantics better. Choose between a range of features like: find path between nodes, show history of last 5 clicked elements, change pointing edges direction, filter by node kind, and many more!
+
+![Graph Buddy User flow](assets/images/gifs/2d-interface-5-findpath_select.gif)
+![Graph Buddy User flow](assets/images/gifs/2d-webview-edgesmode.gif)
+![Graph Buddy User flow](assets/images/gifs/2d-hoverinfo.gif)
 
 ## Graph Buddy features
 
