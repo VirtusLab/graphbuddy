@@ -2,10 +2,10 @@
 
 ## Your new best pal to help you understand your code better
 
-With today’s IDEs we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them. What if we could take a look at our code from above and – instead of seeing just text files – go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
+With today's IDE's we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them.
+What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
 
 ## How Graph Buddy could help you?
-
 
 Graph buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
 Graph is augmented with additional useful data and features that will help you better understand connections between code, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
@@ -110,8 +110,8 @@ When clicking on code, Graph Buddy will add data accordingly to your code. Each 
 You can perform several interactions on the webview, that will help you understand the project semantics better. Choose between a range of features like: find path between nodes, show history of last 5 clicked elements, change pointing edges direction, filter by node kind, and many more!
 
 ![Graph Buddy User flow](assets/images/gifs/2d-interface-5-findpath_select.gif)
-![Graph Buddy User flow](assets/images/gifs/2d-webview-edgesmode.gif)
-![Graph Buddy User flow](assets/images/gifs/2d-hoverinfo.gif)
+![Graph Buddy User flow](assets/images/gifs/2d-webview-6-edgesmode.gif)
+![Graph Buddy User flow](assets/images/gifs/2d-webview-7-hoverinfo.gif)
 
 ## Graph Buddy features
 
