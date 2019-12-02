@@ -7,8 +7,8 @@ What if we could take a look at our code from above - and instead of seeing just
 
 ## How Graph Buddy could help you?
 
-Graph buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
-Graph is augmented with additional useful data and features that will help you better understand connections between code, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
+Graph Buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
+Graph is augmented with additional useful data and features, that will help you better understand connections inside your codebase, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
 
@@ -66,7 +66,7 @@ Make sure you have the following installed:
 - [sbt](https://www.scala-sbt.org/download.html)
 
 To run the server, download and run following `.jar`
-- [Graph Buddy server]()
+- [Graph Buddy server](https://dl.bintray.com/liosedhel/graphbuddy/semantic-graphs-server-0.0.1.jar)
 
 ## Installing plugin
 
@@ -151,19 +151,19 @@ You can perform several interactions on the webview, that will help you understa
 # Roadmap
 
 **Release**
-- [x] Semantic Graph extraction based on [semanticdb](https://scalameta.org/docs/semanticdb/guide.html) and [Scala Tree (AST)](https://scalameta.org/docs/trees/guide.html)
-- [x] Graph operations available directly via UI
-- [x] Features improving graph usability
-- [x] Improving semanticdb graph correctness
-- [x] Embedding the solution to Intellij and VSCode
-- [x] Automatically refreshing the graph on code change
-- [x] Introduce IDE plugin configuration
-- [ ] Plug-and-play server
+- [x]  Semantic Graph extraction based on [semanticdb](https://scalameta.org/docs/semanticdb/guide.html) and [Scala Tree (AST)](https://scalameta.org/docs/trees/guide.html)
+- [x]  Graph operations available directly via UI
+- [x]  Features improving graph usability
+- [x]  Improving semanticdb graph correctness
+- [x]  Embedding the solution to Intellij and VSCode
+- [x]  Automatically refreshing the graph on code change
+- [x]  Introduce IDE plugin configuration
+- [ ]  Plug-and-play server
 
 **Future versions**
-- [ ] Getting feedback and implementing most requested features
-- [ ] Integrating the project with Context Buddy
-- [ ] Typescript integration
+- [ ]  Getting feedback and implementing most requested features
+- [ ]  Integrating the project with Context Buddy
+- [ ]  Typescript integration
 
 ---
 
