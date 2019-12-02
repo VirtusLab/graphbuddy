@@ -7,8 +7,8 @@ What if we could take a look at our code from above - and instead of seeing just
 
 ## How Graph Buddy could help you?
 
-Graph Buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
-Graph is augmented with additional useful data and features, that will help you better understand project dependencies, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you will be doing useful, productive stuff.
+Graph buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
+Graph is augmented with additional useful data and features that will help you better understand connections between code, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
 
@@ -16,14 +16,14 @@ Graph is augmented with additional useful data and features, that will help you 
 
 # Table of Contents
 
-1. [Installing and configuring the extension](#installing-and-configuring-the-extension)
-    - [Your project configuration](#your-project-configuration)
-    - [Setting up the server](#setting-up-the-server)
-    - [Installing plugin](#installing-plugin)
+1. [Installing and configuring the extension](#installingandconfiguringtheextension)
+    - [Your project configuration](#yourprojectconfiguration)
+    - [Setting up the server](#settinguptheserver)
+    - [Installing plugin](#installingplugin)
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
     - [Opening webview](#opening-webview)
     - [Basic flow](#basic-flow)
-        - [Navigating throught project](#navigating-through-project)
+        - [Navigating throught project](#navigating-throught-project)
         - [Webview interactions](#webview-interactions)
     - [Graph Buddy features](#graph-buddy-features)
         - [Code editor](#code-editor)
@@ -36,19 +36,21 @@ Graph is augmented with additional useful data and features, that will help you 
 # Installing and configuring the extension
 
 Graph Buddy extension consist of two parts:
-1. Java server - handling all the data
-2. IDE plugin - extension downloadable from VSCode & IntelliJ store
+
+1. Java server - handling all the data
+2. IDE plugin - extension downloadable from VSCode & IntelliJ store
 
 To make it work, you need to pass three installation steps:
-1. Configure your project
-2. Download and set up server
-3. Install plugin on your IDE
+
+1. Configure your project
+2. Download and set up server
+3. Install plugin on your IDE
 
 ## Your project configuration
 
 Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your build.sbt add:
 
-```scala
+```
 addCompilerPlugin("org.scalameta" % "semanticdb-scalac" % "4.1.9" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
