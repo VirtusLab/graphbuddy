@@ -4,10 +4,14 @@
 @import "{{ site.theme }}";
 
 .page-header {
-  background-image: url("/banner_graph-buddy.png") !important;
+  background-image: url("/assets/images/banner_graph-buddy_mobile.png") !important;
   background-position: center;
   background-size: cover;
   max-height: 380px;
+
+  @media (min-width: 1025px) {
+    background-image: url("/assets/images/banner_graph-buddy.png") !important;
+  }
 }
 
 ol ul {
