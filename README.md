@@ -1,25 +1,24 @@
-# Say hello to Graph Buddy!
+# Say hello to Graph Buddy!
 
-## Your new best pal to help you understand your code better
+## Your new best pal to help you understand your code better
 
 With today's IDE's we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them.
 What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
 
-## How Graph Buddy could help you?
+## How Graph Buddy could help you?
 
 Graph Buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
 Graph is augmented with additional useful data and features, that will help you better understand connections inside your codebase, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-3-extendedflow.gif)
-
 ---
 
 # Table of Contents
 
-1. [Installing and configuring the extension](#installingandconfiguringtheextension)
-    - [Your project configuration](#yourprojectconfiguration)
-    - [Setting up the server](#settinguptheserver)
-    - [Installing plugin](#installingplugin)
+1. [Installing and configuring the extension](#installing-and-configuring-the-extension)
+    - [Your project configuration](#your-project-configuration)
+    - [Setting up the server](#setting-up-the-server)
+    - [Installing plugin](#installing-plugin)
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
     - [Opening webview](#opening-webview)
     - [Basic flow](#basic-flow)
@@ -33,48 +32,48 @@ Graph is augmented with additional useful data and features, that will help you 
 
 ---
 
-# Installing and configuring the extension
+# Installing and configuring the extension
 
-Graph Buddy extension consist of two parts:
+Graph Buddy extension consist of two parts:
 
-1. Java server - handling all the data
-2. IDE plugin - extension downloadable from VSCode & IntelliJ store
+1. Java server - handling all the data
+2. IDE plugin - extension downloadable from VSCode & IntelliJ store
 
-To make it work, you need to pass three installation steps:
+To make it work, you need to go through three installation steps:
 
-1. Configure your project
-2. Download and set up server
-3. Install plugin on your IDE
+1. Configure your project
+2. Download and set up server
+3. Install plugin on your IDE
 
-## Your project configuration
+## Your project configuration
 
-Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your build.sbt add:
+Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your build.sbt add:
 
 ```
-addCompilerPlugin("org.scalameta" % "semanticdb-scalac" % "4.1.9" cross CrossVersion.full)
-scalacOptions += "-Yrangepos"
+addCompilerPlugin("org.scalameta" % "semanticdb-scalac" % "4.1.9" cross CrossVersion.full)
+scalacOptions += "-Yrangepos"
 ```
 
-and recompile your project.
+and recompile your project.
 
-*NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e via VSCode) these files will be added there automatically.
+*NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e via VSCode) these files will be added there automatically.
 
-## Setting up the server
+## Setting up the server
 
-Make sure you have the following installed:
-- [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-- [sbt](https://www.scala-sbt.org/download.html)
+Make sure you have the following installed:
+- [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+- [sbt](https://www.scala-sbt.org/download.html)
 
-To run the server, download and run following `.jar`
-- [Graph Buddy server](https://dl.bintray.com/liosedhel/graphbuddy/semantic-graphs-server-0.0.1.jar)
+To run the server, download and run following `.jar`
+- [Graph Buddy server](https://dl.bintray.com/liosedhel/graphbuddy/semantic-graphs-server-0.0.1.jar)
 
-## Installing plugin
+## Installing plugin
 
-Plugin is available for:
-- VSCode
-- IntelliJ
+Plugin is available for:
+- VSCode
+- IntelliJ
 
-Simply navigate to store inside your IDE and search for `Graph Buddy`
+Simply navigate to store inside your IDE and search for `Graph Buddy`
 
 ---
 
