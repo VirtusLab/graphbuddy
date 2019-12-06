@@ -10,7 +10,7 @@ What if we could take a look at our code from above - and instead of seeing just
 Graph Buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
 Graph is augmented with additional useful data and features, that will help you better understand connections inside your codebase, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
 
-![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
+![Graph Buddy User flow](assets/images/gifs/extension-3-extendedflow.gif)
 
 ---
 
