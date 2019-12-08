@@ -2,13 +2,13 @@
 
 ## Your new best pal to help you understand your code better
 
-With today's IDE's we are all forced to browse code by looking at flat file structures, with almost no information about the semantic dependencies between them.
-What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your code base?
+With today's IDE's we are all forced to browse code by looking at flat-file structures, with almost no information about the semantic dependencies between them.
+What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your codebase?
 
-## How Graph Buddy could help you?
+## How Graph Buddy can help you?
 
 Graph Buddy allows you to extract abstract semantic graph data from your project, giving you more context about the code.
-Graph is augmented with additional useful data and features, that will help you better understand connections inside your codebase, which will result in lots of saved time - instead of pulling your hair out, trying to understand - you could be doing purposefull, productive stuff.
+The graph is augmented with additional useful data and features that will help you better understand the structure and connections in your codebase. Graph Buddy aims to speed up your process of reading and learning about the project.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-3-extendedflow.gif)
 ---
@@ -18,12 +18,12 @@ Graph is augmented with additional useful data and features, that will help you 
 1. [Installing and configuring the extension](#installing-and-configuring-the-extension)
     - [Your project configuration](#your-project-configuration)
     - [Setting up the server](#setting-up-the-server)
-    - [Installing plugin](#installing-plugin)
+    - [Installing plugin](#installing-a-plugin)
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
-    - [Opening webview](#opening-webview)
+    - [Opening Graph Buddy window](#opening-graph-buddy-window)
     - [Basic flow](#basic-flow)
-        - [Navigating throught project](#navigating-throught-project)
-        - [Webview interactions](#webview-interactions)
+        - [Navigating throught the project](#navigating-throught-the-project)
+        - [Graph Buddy interactions](#graph-buddy-interactions)
     - [Graph Buddy features](#graph-buddy-features)
         - [Code editor](#code-editor)
         - [Webview](#webview)
@@ -42,12 +42,27 @@ Graph Buddy extension consist of two parts:
 To make it work, you need to go through three installation steps:
 
 1. Configure your project
-2. Download and set up server
-3. Install plugin on your IDE
+2. Download and set up the server
+3. Install the plugin in your IDE
 
 ## Your project configuration
 
-Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your build.sbt add:
+*NOTE:* GraphBuddy is currently only supporting scala projects
+
+### Using graphbuddy scalac plugin
+
+For maximum server indexing performance, recommended way of generating graph data is via the graphbuddy scalac plugin. For example, using sbt in your `build.sbt`:
+```
+resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.3" cross CrossVersion.full)
+scalacOptions += "-Yrangepos"
+```
+
+Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
+
+### Using semanticdb scalac plugin
+
+Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your `build.sbt` add:
 
 ```
 addCompilerPlugin("org.scalameta" % "semanticdb-scalac" % "4.1.9" cross CrossVersion.full)
@@ -56,33 +71,44 @@ scalacOptions += "-Yrangepos"
 
 and recompile your project.
 
-*NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e via VSCode) these files will be added there automatically.
+*NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e. via VSCode) these files will be added there automatically.
 
 ## Setting up the server
 
 Make sure you have the following installed:
 - [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-- [sbt](https://www.scala-sbt.org/download.html)
 
 To run the server, download and run following `.jar`
-- [Graph Buddy server](https://dl.bintray.com/liosedhel/graphbuddy/semantic-graphs-server-0.0.1.jar)
+- [Graph Buddy server](https://dl.bintray.com/virtuslab/graphbuddy/semantic-graphs-server-0.0.1.jar)
 
-## Installing plugin
+With `graphbuddy` scalac plugin:
+```
+java -jar semantic-graphs-server-0.0.1.jar 9000 --proto
+```
+
+With `semanticdb` scalac plugin:
+```
+java -jar semantic-graphs-server-0.0.1.jar 9000
+```
+
+*Note:* 9000 is a default http port for the server
+
+## Installing a plugin
 
 Plugin is available for:
 - VSCode
 - IntelliJ
 
-Simply navigate to store inside your IDE and search for `Graph Buddy`
+You can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
 
 ---
 
 # How to use Graph Buddy
 
-Graph Buddy plugin embeds a webview window into your IDE.
-You can perform visual operations both clicking on your code and on the webview graph. Doing so, will modify the graph structure accordingly, showcasing semantics info about your project.
+Graph Buddy plugin adds a special view into your IDE.
+You can perform visual operations, both clicking on your code and on the graph visualization. Doing so will modify the graph structure accordingly, showcasing semantics info about your project.
 
-## Opening webview
+## Opening Graph Buddy window
 
 **IntelliJ**
 
@@ -98,13 +124,13 @@ Open `Command Palette` and type `> GraphBuddy: Show webview window`
 
 ## Basic flow
 
-### Navigating throught project
+### Navigating throught the project
 
 When clicking on code, Graph Buddy will add data accordingly to your code. Each semantic type in your code is represented as *node* and the connection between them as *edge*. When navigating, the graph will progressively get bigger, showing all the semantic connections inside your project.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
 
-### Webview interactions
+### Graph Buddy interactions
 
 You can perform several interactions on the webview, that will help you understand the project semantics better. Choose between a range of features like: find path between nodes, show history of last 5 clicked elements, change pointing edges direction, filter by node kind, and many more!
 
@@ -117,7 +143,7 @@ You can perform several interactions on the webview, that will help you understa
 ### Code editor
 
 1. When clicking inside code editor, corresponding nodes and connected to it edges will highlight
-2. By right-clicking on code, you have an option to render graph for both file and location, which will display either full graph per file or all connections for current location / symbol
+2. By right-clicking on code, you have an option to render graph for both file and location, which will display either full graph per file or all connections for current location/symbol
 3. By opening extension menu from menu bar (IntelliJ) or right clicking (VSCode) you can reindex graph, which will reindex graph data source
 
 ### Webview
