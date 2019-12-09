@@ -22,6 +22,7 @@ The graph is augmented with additional useful data and features that will help y
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
     - [Opening Graph Buddy window](#opening-graph-buddy-window)
     - [Basic flow](#basic-flow)
+        - [Indexing the graph](#indexing-the-graph)
         - [Navigating throught the project](#navigating-throught-the-project)
         - [Graph Buddy interactions](#graph-buddy-interactions)
     - [Graph Buddy features](#graph-buddy-features)
