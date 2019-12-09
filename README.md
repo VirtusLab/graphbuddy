@@ -96,10 +96,10 @@ java -jar semantic-graphs-server-0.0.1.jar 9000
 ## Installing a plugin
 
 Plugin is available for:
-- VSCode
-- IntelliJ
+- VSCode [download .vsix here](https://dl.bintray.com/virtuslab/graphbuddy/:graph-buddy-0.1.0.vsix)
+- IntelliJ [download  .zip here](https://dl.bintray.com/virtuslab/graphbuddy/:graphbuddy-0.0.1.zip)
 
-You can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
+Also, you can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
 
 ---
 
@@ -123,6 +123,14 @@ Open `Command Palette` and type `> GraphBuddy: Show webview window`
 ![Graph Buddy User flow](assets/images/gifs/extension-1-openwebview-vscode.gif)
 
 ## Basic flow
+
+### Indexing the graph
+
+Before doing any operations with the plugin, you have to reindex semantic graph. Simply, in your IDE:
+- VSCode - open context menu by right-clicking and press "Reindex Semantic Graph"
+- IntelliJ - search for 'Graph Buddy' in the navigation menu and in the dropdown select "Reindex Semantic Graph"
+
+**Keep in mind that you have to reindex semantic graph only once per server start**
 
 ### Navigating throught the project
 
