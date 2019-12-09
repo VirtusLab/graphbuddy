@@ -97,8 +97,8 @@ java -jar semantic-graphs-server-0.0.1.jar 9000
 ## Installing a plugin
 
 Plugin is available for:
-- VSCode [download .vsix here](https://dl.bintray.com/virtuslab/graphbuddy/:graph-buddy-0.1.0.vsix)
-- IntelliJ [download  .zip here](https://dl.bintray.com/virtuslab/graphbuddy/:graphbuddy-0.0.1.zip)
+- VSCode [download .vsix here](https://bintray.com/virtuslab/graphbuddy)
+- IntelliJ [download  .zip here](https://bintray.com/virtuslab/graphbuddy)
 
 Also, you can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
 
