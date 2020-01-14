@@ -158,21 +158,23 @@ You can perform several interactions on the webview, that will help you understa
 ### Webview
 
 1. By clicking on nodes, graph will highlight corresponding nodes and edges
-2. By shift-clicking node, you remove it from the webview
-3. By double clicking on node you extend the graph by adding data corresponding with clicked node
-4. By switching layout in the navigation bar, you change rendering method of the graph (classic, vertical, horizontal)
-5. By selecting and unselecting level of returned graph checkboxes, you filter out corresponding nodes by kind.
-6. By checking / unchecking Inward checkbox, you switch between edges modes: inward and outward (edges pointing in or out)
-7. When hovering on a node a box shows up with node and context buddy info (if available)
-8. When using mouse scroll wheel, you either zoom in or out
-9. By checking Filter undefined nodes checkbox, you filter out nodes marked as undefined
+2. By clicking on edges that contain a *reference* parameter, IDE focuses on code responsible for both nodes connected by clicked edge.
+3. By shift-clicking node, you remove it from the webview
+4. By double clicking on node you extend the graph by adding data corresponding with clicked node
+5. By switching layout in the navigation bar, you change rendering method of the graph (classic, vertical, horizontal)
+6. By selecting and unselecting level of returned graph checkboxes, you filter out corresponding nodes by kind.
+7. By checking / unchecking Inward checkbox, you switch between edges modes: inward and outward (edges pointing in or out)
+8. When hovering on a node or edge, a tooltip shows up with available data object info
+9. When using mouse scroll wheel, you either zoom in or out
+10. By checking Filter undefined nodes checkbox, you filter out nodes marked as undefine
+11. Pressing `:` opens up a CLI, that works like a *fuzzy search*, searching through network data nodes / edges and their params
 
 **Interface buttons**
 1. 3D Switcher - a network switcher, changing network manager between 2d and 3d graph (VSCode only!)
 2. Freeze button (lock icon) - freezes current graph, not allowing to extend it with data or remove data (filtering level still works)
 3. Display history (book icon) - displays history of up to last 5 clicked nodes
 4. Clean data (trash icon) - clears network data
-5. Find path (two connected dots icon) - opens up a model that allows to select two nodes, then upon accepting displays path between these two nodes
+5. Find path (two connected dots icon) - opens up a model that allows to select two nodes, then upon accepting, it highlights path between these two nodes
 6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges
 
 **... and extra interface icons in 2d manager:**
