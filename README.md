@@ -55,24 +55,11 @@ To make it work, you need to go through three installation steps:
 For maximum server indexing performance, recommended way of generating graph data is via the graphbuddy scalac plugin. For example, using sbt in your `build.sbt`:
 ```
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.3" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.10" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
-
-### Using semanticdb scalac plugin
-
-Project heavily relies currently on [semanticb information](https://scalameta.org/docs/semanticdb/guide.html). This data has to be generated during compilation. In your `build.sbt` add:
-
-```
-addCompilerPlugin("org.scalameta" % "semanticdb-scalac" % "4.1.9" cross CrossVersion.full)
-scalacOptions += "-Yrangepos"
-```
-
-and recompile your project.
-
-*NOTE:* If you are using [Scala Language Server Protocol](https://scalameta.org/metals/) (i.e. via VSCode) these files will be added there automatically.
 
 ## Setting up the server
 
@@ -80,14 +67,9 @@ Make sure you have the following installed:
 - [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
 
 To run the server, download and run following `.jar`
-- [Graph Buddy server](https://dl.bintray.com/virtuslab/graphbuddy/semantic-graphs-server-0.0.1.jar)
+- [Graph Buddy server](https://dl.bintray.com/virtuslab/graphbuddy/semantic-graphs-server-0.0.2.jar)
 
-With `graphbuddy` scalac plugin:
-```
-java -jar semantic-graphs-server-0.0.1.jar 9000 --proto
-```
-
-With `semanticdb` scalac plugin:
+Run the server:
 ```
 java -jar semantic-graphs-server-0.0.1.jar 9000
 ```
@@ -97,10 +79,10 @@ java -jar semantic-graphs-server-0.0.1.jar 9000
 ## Installing a plugin
 
 Plugin is available for:
-- VSCode [download .vsix here](https://bintray.com/virtuslab/graphbuddy)
-- IntelliJ [download  .zip here](https://bintray.com/virtuslab/graphbuddy)
+- VSCode [here](https://marketplace.visualstudio.com/items?itemName=virtuslab.graph-buddy)
+- IntelliJ [here](https://plugins.jetbrains.com/plugin/13467-graph-buddy)
 
-Also, you can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
+You can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
 
 ---
 
