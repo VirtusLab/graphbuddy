@@ -73,7 +73,7 @@ To run the server, download and run following `.jar`
 
 Run the server:
 ```
-java -jar semantic-graphs-server-0.0.1.jar 9000
+java -jar semantic-graphs-server-0.0.2.jar 9000
 ```
 
 *Note:* 9000 is a default http port for the server
