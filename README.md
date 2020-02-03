@@ -50,6 +50,8 @@ To make it work, you need to go through three installation steps:
 
 *NOTE:* GraphBuddy is currently only supporting scala projects
 
+*NOTE:* Typescript support coming very soon!
+
 ### Using graphbuddy scalac plugin
 
 For maximum server indexing performance, recommended way of generating graph data is via the graphbuddy scalac plugin. For example, using sbt in your `build.sbt`:
@@ -109,9 +111,14 @@ Open `Command Palette` and type `> GraphBuddy: Show webview window`
 
 ### Indexing the graph
 
-Before doing any operations with the plugin, you have to reindex semantic graph. Simply, in your IDE:
-- VSCode - open context menu by right-clicking and press "Reindex Semantic Graph"
+Before doing any operations with the plugin, you have to reindex semantic graph with one of the following options:
+- `Reindex graph` - recommended reindex option that indexes current project
+- `Reindex graph (add mode)` - reindex option that does not clear previous reindex data, allowing to reindex multiple projects
+
+To reindex graph with one of the above, follow these steps in your IDE:
+- VSCode - search for status item 'Graph Buddy' in the bottom right status bar menu, click it and pick desired reindex option from expanded menu
 - IntelliJ - search for 'Graph Buddy' in the navigation menu and in the dropdown select "Reindex Semantic Graph"
+
 
 **Keep in mind that you have to reindex semantic graph only once per server start**
 
@@ -135,7 +142,7 @@ You can perform several interactions on the webview, that will help you understa
 
 1. When clicking inside code editor, corresponding nodes and connected to it edges will highlight
 2. By right-clicking on code, you have an option to render graph for both file and location, which will display either full graph per file or all connections for current location/symbol
-3. By opening extension menu from menu bar (IntelliJ) or right clicking (VSCode) you can reindex graph, which will reindex graph data source
+3. By opening Graph Buddy extension menu from menu bar (IntelliJ) or Graph Buddy status item from status bar (VSCode) you can reindex graph, which will index server with selected project data.
 
 ### Webview
 
