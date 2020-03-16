@@ -17,7 +17,7 @@ The graph is augmented with additional useful data and features that will help y
 
 1. [Installing and configuring the extension](#installing-and-configuring-the-extension)
     - [Your project configuration](#your-project-configuration)
-    - [Setting up the server](#setting-up-the-server)
+    - [Setting up the server](#setting-up-the-server-intellij-only)
     - [Installing plugin](#installing-a-plugin)
 2. [How to use Graph Buddy](#how-to-use-graph-buddy)
     - [Opening Graph Buddy window](#opening-graph-buddy-window)
@@ -35,15 +35,19 @@ The graph is augmented with additional useful data and features that will help y
 
 # Installing and configuring the extension
 
-Graph Buddy extension consist of two parts:
+Depenging on IDE you use, Graph Buddy requries from you either plugin or plugin with serwer:
 
-1. Java server - handling all the data
-2. IDE plugin - extension downloadable from VSCode & IntelliJ store
+1. IntelliJ
+- Java server - handling all the data
+- IDE plugin - extension downloadable from IntelliJ store
+
+2. VSCode 
+- IDE plugin - standalone, plug-and-play extension downloadable from VSCode store
 
 To make it work, you need to go through three installation steps:
 
 1. Configure your project
-2. Download and set up the server
+2. Download and set up the server (optional for IntelliJ)
 3. Install the plugin in your IDE
 
 ## Your project configuration
@@ -63,7 +67,7 @@ scalacOptions += "-Yrangepos"
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
-## Setting up the server
+## Setting up the server (IntelliJ only)
 
 Make sure you have the following installed:
 - [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
@@ -183,7 +187,7 @@ You can perform several interactions on the webview, that will help you understa
 - [x]  Embedding the solution to Intellij and VSCode
 - [x]  Automatically refreshing the graph on code change
 - [x]  Introduce IDE plugin configuration
-- [ ]  Plug-and-play server
+- [x]  Plug-and-play VSCode server
 
 **Future versions**
 - [ ]  Getting feedback and implementing most requested features
