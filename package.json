@@ -1,0 +1,10 @@
+{
+  "name": "graphbuddy-ts-example",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "ts-example/index.ts",
+  "scripts": {
+  },
+  "devDependencies": {
+  }
+}
