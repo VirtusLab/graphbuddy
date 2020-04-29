@@ -86,8 +86,10 @@ java -jar semantic-graphs-server-0.0.2.jar 9000
 
 Typescript server requires you to have `main` property in `package.json`, pointing to your project's starting file
 ```
-"main": "index.ts",
+"main": "src/index.ts",
 ```
+
+*Note:* Currently You can play with typescript but keep in mind that it is still under active development and it’s first phase, there are lot of work for use to cover all unhandled cases. We are reccomending to use a graphbuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo, or on your own as a playground not with the live project (even our project doesn’t build perfectly)
 
 ## Installing a plugin
 
