@@ -52,11 +52,11 @@ To make it work, you need to go through three installation steps:
 
 ## Your project configuration
 
-*NOTE:* GraphBuddy is currently only supporting scala projects
+*NOTE:* GraphBuddy is now supporting basic Typescript projects!
 
-*NOTE:* Typescript support coming very soon!
+### Scala configuration
 
-### Using graphbuddy scalac plugin
+#### Using graphbuddy scalac plugin
 
 For maximum server indexing performance, recommended way of generating graph data is via the graphbuddy scalac plugin. For example, using sbt in your `build.sbt`:
 ```
@@ -67,7 +67,7 @@ scalacOptions += "-Yrangepos"
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
-## Setting up the server (IntelliJ only)
+#### Setting up the server (IntelliJ only)
 
 Make sure you have the following installed:
 - [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
@@ -81,6 +81,13 @@ java -jar semantic-graphs-server-0.0.2.jar 9000
 ```
 
 *Note:* 9000 is a default http port for the server
+
+### Typescript configuration
+
+Typescript server requires you to have `main` property in `package.json`, pointing to your project's starting file
+```
+"main": "index.ts",
+```
 
 ## Installing a plugin
 
@@ -107,7 +114,8 @@ Look after a 'GraphBuddy' tab in the bottom right corner and press it.
 
 **VSCode**
 
-Open `Command Palette` and type `> GraphBuddy: Show webview window`
+Click `GraphBuddy` icon in the activity bar (left), then press the `Open GraphBuddy window` button.
+It should open up a new window with extension ready to use!
 
 ![Graph Buddy User flow](assets/images/gifs/extension-1-openwebview-vscode.gif)
 
@@ -120,7 +128,7 @@ Before doing any operations with the plugin, you have to reindex semantic graph 
 - `Reindex graph (add mode)` - reindex option that does not clear previous reindex data, allowing to reindex multiple projects
 
 To reindex graph with one of the above, follow these steps in your IDE:
-- VSCode - search for status item 'Graph Buddy' in the bottom right status bar menu, click it and pick desired reindex option from expanded menu
+- VSCode - click desired reindex option in the activity bar (left).
 - IntelliJ - search for 'Graph Buddy' in the navigation menu and in the dropdown select "Reindex Semantic Graph"
 
 
@@ -144,9 +152,8 @@ You can perform several interactions on the webview, that will help you understa
 
 ### Code editor
 
-1. When clicking inside code editor, corresponding nodes and connected to it edges will highlight
-2. By right-clicking on code, you have an option to render graph for both file and location, which will display either full graph per file or all connections for current location/symbol
-3. By opening Graph Buddy extension menu from menu bar (IntelliJ) or Graph Buddy status item from status bar (VSCode) you can reindex graph, which will index server with selected project data.
+1. When clicking inside text editor, corresponding nodes and connected to it edges will highlight
+2. By right-clicking on text editor or by browsing through commands in activity bar, you can choose from range of available commands, that can help you visualize your project. 
 
 ### Webview
 
@@ -167,8 +174,9 @@ You can perform several interactions on the webview, that will help you understa
 2. Freeze button (lock icon) - freezes current graph, not allowing to extend it with data or remove data (filtering level still works)
 3. Display history (book icon) - displays history of up to last 5 clicked nodes
 4. Clean data (trash icon) - clears network data
-5. Find path (two connected dots icon) - opens up a model that allows to select two nodes, then upon accepting, it highlights path between these two nodes
+5. Find path (two connected dots icon) - opens up a modal that allows to select two nodes, then upon accepting, it highlights path between these two nodes
 6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges
+7. Network config (gears icon) - opens up a modal that allows you to customize network filtering options
 
 **... and extra interface icons in 2d manager:**
 1. Arrow icons - helps to navigate up/down/left/right through graph
@@ -188,11 +196,11 @@ You can perform several interactions on the webview, that will help you understa
 - [x]  Automatically refreshing the graph on code change
 - [x]  Introduce IDE plugin configuration
 - [x]  Plug-and-play VSCode server
+- [x]  Basic Typescript integration
 
 **Future versions**
 - [ ]  Getting feedback and implementing most requested features
 - [ ]  Integrating the project with Context Buddy
-- [ ]  Typescript integration
 
 ---
 
