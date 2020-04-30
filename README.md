@@ -67,21 +67,6 @@ scalacOptions += "-Yrangepos"
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
-#### Setting up the server (IntelliJ only)
-
-Make sure you have the following installed:
-- [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
-
-To run the server, download and run following `.jar`
-- [Graph Buddy server](https://dl.bintray.com/virtuslab/graphbuddy/semantic-graphs-server-0.0.2.jar)
-
-Run the server:
-```
-java -jar semantic-graphs-server-0.0.2.jar 9000
-```
-
-*Note:* 9000 is a default HTTP port for the server
-
 ### TypeScript configuration
 
 Typescript server requires you to have `main` property in `package.json`, pointing to your project's starting file
@@ -97,6 +82,21 @@ The plugin is available for:
 - IntelliJ [here](https://plugins.jetbrains.com/plugin/13467-graph-buddy)
 
 You can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
+
+### Setting up the server (IntelliJ only)
+
+Make sure you have the following installed:
+- [JDK version 11 ](https://www.oracle.com/technetwork/java/javase/downloads/jdk11-downloads-5066655.html)
+
+To run the server, download and run following `.jar`
+- [Graph Buddy server](https://dl.bintray.com/virtuslab/graphbuddy/semantic-graphs-server-0.0.2.jar)
+
+Run the server:
+```
+java -jar semantic-graphs-server-0.0.2.jar 9000
+```
+
+*Note:* 9000 is a default HTTP port for the server
 
 ---
 
