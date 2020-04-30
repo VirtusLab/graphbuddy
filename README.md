@@ -2,7 +2,7 @@
 
 ## Your new best pal to help you understand your code better
 
-With today's IDE's we are all forced to browse code by looking at flat-file structures, with almost no information about the semantic dependencies between them.
+With today's IDEs we are all forced to browse code by looking at flat-file structures, with almost no information about the semantic dependencies between them.
 What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your codebase?
 
 ## How Graph Buddy can help you?
@@ -35,7 +35,7 @@ The graph is augmented with additional useful data and features that will help y
 
 # Installing and configuring the extension
 
-Depenging on IDE you use, Graph Buddy requries from you either plugin or plugin with serwer:
+Depending on IDE, Graph Buddy requires from you either only plugin or plugin with the server:
 
 1. IntelliJ
 - Java server - handling all the data
@@ -58,10 +58,10 @@ To make it work, you need to go through three installation steps:
 
 #### Using graphbuddy scalac plugin
 
-For maximum server indexing performance, recommended way of generating graph data is via the graphbuddy scalac plugin. For example, using sbt in your `build.sbt`:
+The only requirement is the scalac compiler plugin. Configuration for sbt:
 ```
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.10" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.11" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
@@ -80,16 +80,15 @@ Run the server:
 java -jar semantic-graphs-server-0.0.2.jar 9000
 ```
 
-*Note:* 9000 is a default http port for the server
+*Note:* 9000 is a default HTTP port for the server
 
-### Typescript configuration
+### TypeScript configuration
 
 Typescript server requires you to have `main` property in `package.json`, pointing to your project's starting file
 ```
 "main": "src/index.ts",
 ```
-
-*Note:* Currently You can play with typescript but keep in mind that it is still under active development and it’s first phase, there are lot of work for use to cover all unhandled cases. We are reccomending to use a graphbuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo, or on your own as a playground not with the live project (even our project doesn’t build perfectly)
+*Note:* Currently you can play with Typescript but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend to use a GraphBuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
 
 ## Installing a plugin
 
