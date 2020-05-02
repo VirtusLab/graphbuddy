@@ -1,6 +1,6 @@
 # Say hello to Graph Buddy!
 
-## Your new best pal to help you understand your code better
+## Your new best pal to help you understand the code better
 
 With today's IDEs we are all forced to browse code by looking at flat-file structures, with almost no information about the semantic dependencies between them.
 What if we could take a look at our code from above - and instead of seeing just text files - go through colorful graph nodes that instantly and clearly show you dependencies and other important bits extracted from your codebase?
