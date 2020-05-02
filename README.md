@@ -23,7 +23,7 @@ The graph is augmented with additional useful data and features that will help y
     - [Opening Graph Buddy window](#opening-graph-buddy-window)
     - [Basic flow](#basic-flow)
         - [Indexing the graph](#indexing-the-graph)
-        - [Navigating throught the project](#navigating-throught-the-project)
+        - [Navigating through the project](#navigating-throught-the-project)
         - [Graph Buddy interactions](#graph-buddy-interactions)
     - [Graph Buddy features](#graph-buddy-features)
         - [Code editor](#code-editor)
@@ -134,15 +134,15 @@ To reindex graph with one of the above, follow these steps in your IDE:
 - VSCode - click desired reindex option in the activity bar (left).
 - IntelliJ - search for 'Graph Buddy' in the navigation menu and in the dropdown select "Reindex Semantic Graph"
 
-### Navigating throughout the project
+### Navigating through the project
 
-When clicking on code, Graph Buddy will add data accordingly to your code. Each semantic type in your code is represented as *node* and the connection between them as *edge*. When navigating, the graph will progressively get bigger, showing all the semantic connections inside your project.
+When clicking on code, Graph Buddy will add data accordingly to your code. Each semantic type in your code is represented as *node* and the connection between them as an *edge*. When navigating, the graph will progressively get bigger, showing all the semantic connections inside your project.
 
 ![Graph Buddy User flow](assets/images/gifs/extension-2-basicflow.gif)
 
 ### Graph Buddy interactions
 
-You can perform several interactions on the GraphBuddy panel, that will help you understand the project semantics better. Choose between a range of features like find the path between nodes, show history of last clicked elements, change pointing edges direction, filter by node kind, and many more!
+You can perform several interactions on the GraphBuddy panel, that will help you understand the project semantics better. Choose between a range of features like find a path between nodes, show history of last clicked elements, change pointing edges direction, filter by node kind, and many more!
 
 ![Graph Buddy User flow](assets/images/gifs/2d-interface-5-findpath_select.gif)
 ![Graph Buddy User flow](assets/images/gifs/2d-webview-6-edgesmode.gif)
@@ -157,7 +157,7 @@ You can perform several interactions on the GraphBuddy panel, that will help you
 
 ### Webview
 
-1. By clicking on nodes, graph will highlight corresponding nodes and edges
+1. By clicking on nodes, the graph will highlight corresponding nodes and edges
 2. By clicking on edges that contain a *reference* parameter, IDE focuses on code responsible for both nodes connected by clicked edge.
 3. By shift-clicking node, you remove it from the webview
 4. By double-clicking on the node, you extend the graph by adding data corresponding with clicked node
