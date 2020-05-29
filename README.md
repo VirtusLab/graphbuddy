@@ -37,7 +37,7 @@ The graph is augmented with additional useful data and features that will help y
 
 :warning: Graph Buddy is an experimental project and currently supports only:
 - Scala language - via scalac compiler plugin [see](#your-project-configuration) (70% completeness)
-- Typescript language - initial experimental support :test_tube: (10% completeness)
+- TypeScript language - initial experimental support :test_tube: (10% completeness)
 
 # Installing and configuring the extension
 
