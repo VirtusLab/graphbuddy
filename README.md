@@ -35,9 +35,9 @@ The graph is augmented with additional useful data and features that will help y
 ---
 # Supported languages
 
-:warning: Graph Buddy is an experimental project and currently supports only:
+⚠ Graph Buddy is an experimental project and currently supports only:
 - Scala language - via scalac compiler plugin [see](#your-project-configuration) (70% completeness)
-- TypeScript language - initial experimental support :test_tube: (10% completeness)
+- TypeScript language - initial experimental support (10% completeness)
 
 # Installing and configuring the extension
 
@@ -77,7 +77,7 @@ Typescript server requires you to have `main` property in `package.json`, pointi
 ```
 "main": "src/index.ts",
 ```
-:warning: Currently you can play with Typescript but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend using a GraphBuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
+⚠ Currently you can play with Typescript but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend using a GraphBuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
 
 ## Installing a plugin
 
