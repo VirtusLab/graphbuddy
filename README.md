@@ -15,6 +15,7 @@ The graph is augmented with additional useful data and features that will help y
 
 # Table of Contents
 
+0. [Supported languages](#supported-languages)
 1. [Installing and configuring the extension](#installing-and-configuring-the-extension)
     - [Your project configuration](#your-project-configuration)
     - [Setting up the server](#setting-up-the-server-intellij-only)
@@ -32,22 +33,27 @@ The graph is augmented with additional useful data and features that will help y
 4. [Contact us](#contact-us)
 
 ---
+# Supported languages
+
+:warning: Graph Buddy is an experimental project and currently supports only:
+- Scala language - via scalac compiler plugin [see](#your-project-configuration) (70% completeness)
+- Typescript language - initial experimental support :test_tube: (10% completeness)
 
 # Installing and configuring the extension
 
 Depending on IDE, Graph Buddy requires from you either only plugin or plugin with the server:
 
-1. IntelliJ
+1. VSCode 
+- IDE plugin - standalone, plug-and-play extension downloadable from VSCode store
+
+2. IntelliJ
 - Java server - handling all the data
 - IDE plugin - extension downloadable from IntelliJ store
-
-2. VSCode 
-- IDE plugin - standalone, plug-and-play extension downloadable from VSCode store
 
 To make it work, you need to go through three installation steps:
 
 1. Configure your project
-2. Download and set up the server (optional for IntelliJ)
+2. Download and set up the server (only for IntelliJ)
 3. Install the plugin in your IDE
 
 ## Your project configuration
@@ -56,24 +62,22 @@ To make it work, you need to go through three installation steps:
 
 ### Scala configuration
 
-#### Using graphbuddy scalac plugin
-
 The only requirement is the scalac compiler plugin. Configuration for sbt:
 ```
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.0.11" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.1.0" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
-### TypeScript configuration
+### TypeScript configuration (initial support only)
 
 Typescript server requires you to have `main` property in `package.json`, pointing to your project's starting file
 ```
 "main": "src/index.ts",
 ```
-*Note:* Currently you can play with Typescript but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend using a GraphBuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
+:warning: Currently you can play with Typescript but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend using a GraphBuddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
 
 ## Installing a plugin
 
