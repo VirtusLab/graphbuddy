@@ -65,7 +65,7 @@ To make it work, you need to go through three installation steps:
 The only requirement is the scalac compiler plugin. Configuration for sbt:
 ```
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.1.0" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.1.1" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
