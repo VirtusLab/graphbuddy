@@ -24,7 +24,7 @@ The graph is augmented with additional useful data and features that will help y
     - [Opening Graph Buddy window](#opening-graph-buddy-window)
     - [Basic flow](#basic-flow)
         - [Indexing the graph](#indexing-the-graph)
-        - [Navigating through the project](#navigating-throught-the-project)
+        - [Navigating through the project](#navigating-through-the-project)
         - [Graph Buddy interactions](#graph-buddy-interactions)
     - [Graph Buddy features](#graph-buddy-features)
         - [Code editor](#code-editor)
