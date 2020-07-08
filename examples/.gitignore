@@ -1,0 +1,7 @@
+target
+.idea
+*.csv
+*.txt
+.bloop
+.metals
+.vscode

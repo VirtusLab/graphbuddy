@@ -1,0 +1,107 @@
+
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scalaÎ
+@com/virtuslab/graphbuddy_playground/reference/package.ArrayByte#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala"
+endCharacter16"
+endLine3"
+isValfalse"
+accessPublicAccess()"
+displayName	ArrayByte"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine3"
+isVarfalse"J
+symbol@com/virtuslab/graphbuddy_playground/reference/package.ArrayByte#"
+
+isAbstractfalse"
+kindTYPE*	ArrayByte2
+scala/Array#TYPE_PARAMETER2
+scala/Byte#TYPE_PARAMETER2
+scala/Array#TYPE_PARAMETER2
+scala/Byte#TYPE_PARAMETER2j
+scala/Array#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (2i
+scala/Byte#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (‘
+Ucom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().(param)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (!"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala"
+endCharacter33"
+endLine4"
+isValfalse"
+accessEmpty"
+displayNameparam"
+startCharacter28"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"_
+symbolUcom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().(param)"
+
+isAbstractfalse"
+kind	PARAMETER*param2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala# ()ð
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scalaFILE2›
+6com/virtuslab/graphbuddy_playground/reference/package.DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (ç
+6com/virtuslab/graphbuddy_playground/reference/package.PACKAGE_OBJECTT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala"
+endCharacter24"
+endLine2"
+isValfalse"
+accessEmpty"
+displayName	reference"
+startCharacter15"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine2"
+isVarfalse"@
+symbol6com/virtuslab/graphbuddy_playground/reference/package."
+
+isAbstractfalse"
+kindPACKAGE_OBJECT*	reference2³
+Ncom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (2
+scala/AnyRef#EXTEND2¥
+@com/virtuslab/graphbuddy_playground/reference/package.ArrayByte#DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (§	
+Ncom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().METHODT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala"
+endCharacter27"
+endLine4"
+isValfalse"$
+displayNamemethodInPackageObject"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"X
+symbolNcom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodInPackageObject2¸
+Ucom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().(param)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala (!2y
+scala/Predef.String#RETURN_TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala, (22³
+Ucom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().(param)CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/package.scala5 (:

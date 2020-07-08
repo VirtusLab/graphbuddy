@@ -1,0 +1,222 @@
+
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala‰
+Vlocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scalaVALUE"
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter0"
+endLine0"
+isValtrue"
+accessEmpty"
+displayNamegbValue2"
+startCharacter0"
+isLocaltrue"	
+package"
+isFinalfalse"
+	startLine0"
+isVarfalse"
+symbollocal1"
+
+isAbstractfalse"
+kindVALUE*gbValue22
+java/lang/String#TYPEœ
+Lcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`().(x$1)	PARAMETER"
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"V
+symbolLcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+java/lang/String#TYPE®
+Gcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`().VARIABLE"
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNamegbVar_="
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVartrue"Q
+symbolGcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`()."
+
+isAbstractfalse"
+kindVARIABLE*gbVar_=2Y
+Lcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`().(x$1)	PARAMETER2
+scala/Unit#TYPEÁ
+?com/virtuslab/graphbuddy_playground/reference/GBAssigments.x$1.VALUE"
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter0"
+endLine0"
+isValtrue"
+accessPublicAccess()"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"I
+symbol?com/virtuslab/graphbuddy_playground/reference/GBAssigments.x$1."
+
+isAbstractfalse"
+kindVALUE*x$12
+scala/Tuple2#TYPE2
+java/lang/String#TYPE2
+java/lang/String#TYPE•
+Dcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue1.VALUEY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala ("
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter15"
+endLine6"
+isValtrue"
+accessPublicAccess()"
+displayNamegbValue1"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine6"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue1."
+
+isAbstractfalse"
+kindVALUE*gbValue12
+java/lang/String#TYPEW
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scalaFILE¶
+Dcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue2.VALUEY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala ("
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter25"
+endLine6"
+isValtrue"
+accessPublicAccess()"
+displayNamegbValue2"
+startCharacter17"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine6"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue2."
+
+isAbstractfalse"
+kindVALUE*gbValue22
+java/lang/String#TYPEõ
+Acom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVal.VALUEY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala ("
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter19"
+endLine4"
+isValtrue"
+accessPrivateAccess()"
+displayNamegbVal"
+startCharacter14"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"K
+symbolAcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVal."
+
+isAbstractfalse"
+kindVALUE*gbVal2
+java/lang/String#TYPEç
+;com/virtuslab/graphbuddy_playground/reference/GBAssigments.OBJECTY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala ("
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter19"
+endLine2"
+isValfalse"
+displayNameGBAssigments"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine2"
+isVarfalse"E
+symbol;com/virtuslab/graphbuddy_playground/reference/GBAssigments."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"
+LOC7*GBAssigments2V
+Gcom/virtuslab/graphbuddy_playground/reference/GBAssigments.`gbVar_=`().DECLARATION2N
+?com/virtuslab/graphbuddy_playground/reference/GBAssigments.x$1.DECLARATION2
+scala/AnyRef#EXTEND2´
+Acom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVal.DECLARATIONY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala (2≠
+Ccom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVar().DECLARATIONY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala (2Æ
+Dcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue1.DECLARATIONY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala (2Æ
+Dcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbValue2.DECLARATIONY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala (‰
+Vlocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scalaVALUE"
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter0"
+endLine0"
+isValtrue"
+accessEmpty"
+displayNamegbValue1"
+startCharacter0"
+isLocaltrue"	
+package"
+isFinalfalse"
+	startLine0"
+isVarfalse"
+symbollocal0"
+
+isAbstractfalse"
+kindVALUE*gbValue12
+java/lang/String#TYPE£
+Ccom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVar().VARIABLEY
+Osrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala ("
+
+isImplicitfalse"V
+uriOsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBAssigments.scala"
+endCharacter11"
+endLine5"
+isValfalse"
+accessPublicAccess()"
+displayNamegbVar"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine5"
+isVartrue"M
+symbolCcom/virtuslab/graphbuddy_playground/reference/GBAssigments.gbVar()."
+
+isAbstractfalse"
+kindVARIABLE*gbVar2
+java/lang/String#TYPE

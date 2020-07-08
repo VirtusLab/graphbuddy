@@ -1,0 +1,225 @@
+
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scalaì
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(a)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala" (#"
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter35"
+endLine17"
+isValfalse"
+accessEmpty"
+displayNamea"
+startCharacter34"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine17"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(a)"
+
+isAbstractfalse"
+kind	PARAMETER*a2s
+scala/Predef.String#TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala% (+ˆ
+Acom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().METHODU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter13"
+endLine17"
+isValfalse"
+displayNametestIfs"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine17"
+isVarfalse"K
+symbolAcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC6*testIfs2°
+Lcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(condition)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2¨
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(a)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala" (#2¨
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(b)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala- (.2z
+scala/Predef.String#RETURN_TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala9 (?2«
+Lcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(condition)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2£
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(a)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2£
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(b)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (³
+Acom/virtuslab/graphbuddy_playground/reference/GBMethod.method2().METHODU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter13"
+endLine8"
+isValfalse"
+displayNamemethod2"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine8"
+isVarfalse"K
+symbolAcom/virtuslab/graphbuddy_playground/reference/GBMethod.method2()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC7*method22F
+7com/virtuslab/graphbuddy_playground/reference/GBObject#RETURN_TYPE2¦
+Gcom/virtuslab/graphbuddy_playground/reference/GBObject.apply().(param1)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala
+ 
+(2¦
+Gcom/virtuslab/graphbuddy_playground/reference/GBObject.apply().(param2)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2–
+7com/virtuslab/graphbuddy_playground/reference/GBObject.CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala	 	(2±
+Rcom/virtuslab/graphbuddy_playground/reference/GBObject.gbMethodInObject().(param2)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala# ()2–
+7com/virtuslab/graphbuddy_playground/reference/GBObject.CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2©
+Jcom/virtuslab/graphbuddy_playground/reference/GBObject.gbMethodInObject().CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (ì
+Dcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(b)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala- (."
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter46"
+endLine17"
+isValfalse"
+accessEmpty"
+displayNameb"
+startCharacter45"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine17"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(b)"
+
+isAbstractfalse"
+kind	PARAMETER*b2s
+scala/Predef.String#TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala0 (6ˆ
+Kcom/virtuslab/graphbuddy_playground/reference/GBMethod.method().(parameter)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter22"
+endLine4"
+isValfalse"
+accessEmpty"
+displayName	parameter"
+startCharacter13"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"U
+symbolKcom/virtuslab/graphbuddy_playground/reference/GBMethod.method().(parameter)"
+
+isAbstractfalse"
+kind	PARAMETER*	parameter2s
+scala/Predef.String#TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (S
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scalaFILE†
+Lcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(condition)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter23"
+endLine17"
+isValfalse"
+accessEmpty"
+displayName	condition"
+startCharacter14"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine17"
+isVarfalse"V
+symbolLcom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().(condition)"
+
+isAbstractfalse"
+kind	PARAMETER*	condition2m
+scala/Boolean#TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ( Ú
+7com/virtuslab/graphbuddy_playground/reference/GBMethod.OBJECTU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter15"
+endLine2"
+isValfalse"
+displayNameGBMethod"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine2"
+isVarfalse"A
+symbol7com/virtuslab/graphbuddy_playground/reference/GBMethod."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC24*GBMethod2¦
+@com/virtuslab/graphbuddy_playground/reference/GBMethod.method().DECLARATIONU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2§
+Acom/virtuslab/graphbuddy_playground/reference/GBMethod.method2().DECLARATIONU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2§
+Acom/virtuslab/graphbuddy_playground/reference/GBMethod.testIfs().DECLARATIONU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2
+scala/AnyRef#EXTEND2ª
+Kcom/virtuslab/graphbuddy_playground/reference/GBMethod.method().(parameter)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala	 (2Ÿ
+@com/virtuslab/graphbuddy_playground/reference/GBMethod.method().CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (¼
+@com/virtuslab/graphbuddy_playground/reference/GBMethod.method().METHODU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala ("
+
+isImplicitfalse"R
+uriKsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala"
+endCharacter12"
+endLine4"
+isValfalse"
+displayNamemethod"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"J
+symbol@com/virtuslab/graphbuddy_playground/reference/GBMethod.method()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC3*method2¯
+Kcom/virtuslab/graphbuddy_playground/reference/GBMethod.method().(parameter)	PARAMETERU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2œ
+6com/virtuslab/graphbuddy_playground/reference/GBClass#RETURN_TYPEU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala! ((2•
+6com/virtuslab/graphbuddy_playground/reference/GBClass#CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2 
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (2ª
+Kcom/virtuslab/graphbuddy_playground/reference/GBMethod.method().(parameter)CALLU
+Ksrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBMethod.scala (

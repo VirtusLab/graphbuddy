@@ -1,0 +1,97 @@
+
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scalaµ
+<com/virtuslab/graphbuddy_playground/demo/AFactory.createA().METHODL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+
+isImplicitfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+endCharacter13"
+endLine4"
+isValfalse"
+displayNamecreateA"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine4"
+isVarfalse"F
+symbol<com/virtuslab/graphbuddy_playground/demo/AFactory.createA()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC3*createA2:
++com/virtuslab/graphbuddy_playground/demo/A#RETURN_TYPE2
++com/virtuslab/graphbuddy_playground/demo/A#CALLL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (	2Œ
+6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().CALLL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala	 (	ä
++com/virtuslab/graphbuddy_playground/demo/A#CLASSL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+
+isImplicitfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+endCharacter7"
+endLine2"
+isValfalse"
+displayNameA"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine2"
+isVarfalse"5
+symbol+com/virtuslab/graphbuddy_playground/demo/A#"
+
+isAbstractfalse"
+kindCLASS"
+accessPublicAccess()"
+LOC1*A2“
+6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().DECLARATIONL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
+scala/AnyRef#EXTENDˆ
+2com/virtuslab/graphbuddy_playground/demo/AFactory.OBJECTL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+
+isImplicitfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+endCharacter15"
+endLine3"
+isValfalse"
+displayNameAFactory"
+startCharacter7"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinaltrue"
+	startLine3"
+isVarfalse"<
+symbol2com/virtuslab/graphbuddy_playground/demo/AFactory."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"
+LOC5*AFactory2™
+<com/virtuslab/graphbuddy_playground/demo/AFactory.createA().DECLARATIONL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
+scala/AnyRef#EXTENDJ
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scalaFILE×
+6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().CONSTRUCTORL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+
+isImplicitfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+endCharacter7"
+endLine2"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter7"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine2"
+isVarfalse"@
+symbol6com/virtuslab/graphbuddy_playground/demo/A#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>

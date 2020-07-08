@@ -1,0 +1,361 @@
+
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala¢
+]localFunction1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaTERM_FUNCTIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+isLocaltrue"
+	startLine14"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"g
+symbol]localFunction1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter31"
+endLine14"
+kindTERM_FUNCTION"
+LOC1"
+displayNamelocalFunction1"
+startCharacter21*localFunction12¼
+Ulocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2·
+Ulocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaCALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2t
+scala/Int#`+`(+4).CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (Ü-
+:com/virtuslab/graphbuddy_playground/reference/Experiments.OBJECTX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter18"
+endLine4"
+isValfalse"
+displayNameExperiments"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine4"
+isVarfalse"D
+symbol:com/virtuslab/graphbuddy_playground/reference/Experiments."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC31*Experiments2¯
+Fcom/virtuslab/graphbuddy_playground/reference/Experiments.twoDirect().DECLARATIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ 
+(2
+scala/AnyRef#EXTEND2¥
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.DECLARATIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2‚
+ scala/collection/immutable/List.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¥
+<com/virtuslab/graphbuddy_playground/reference/Experiments.s.DECLARATIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¿
+]localFunction0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaCALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ ( 2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ˆ
+&scala/collection/immutable/List#map().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¿
+]localFunction2:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaCALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2Œ
+*scala/collection/immutable/List#foreach().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¿
+]localFunction3:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaCALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2Œ
+*scala/collection/immutable/List#foreach().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¥
+<com/virtuslab/graphbuddy_playground/reference/Experiments.z.DECLARATIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2™
+7com/virtuslab/graphbuddy_playground/reference/GBObject.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ (2¥
+Ccom/virtuslab/graphbuddy_playground/reference/GBObject.InnerObject.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2²
+Pcom/virtuslab/graphbuddy_playground/reference/GBObject.InnerObject.SomeConstant.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (+2™
+7com/virtuslab/graphbuddy_playground/reference/GBObject.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¥
+Ccom/virtuslab/graphbuddy_playground/reference/GBObject.InnerObject.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (!2²
+Pcom/virtuslab/graphbuddy_playground/reference/GBObject.InnerObject.SomeConstant.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala" (.2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2
++scala/collection/immutable/List#contains().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2´
+Rcom/virtuslab/graphbuddy_playground/reference/GBObject.gbMethodInObject().(param2)CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2¬
+Jcom/virtuslab/graphbuddy_playground/reference/GBObject.gbMethodInObject().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2©
+Gcom/virtuslab/graphbuddy_playground/reference/GBObject.apply().(param2)CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2™
+7com/virtuslab/graphbuddy_playground/reference/GBObject.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (
+2´
+Kcom/virtuslab/graphbuddy_playground/reference/Experiments.qualifiedNameFmt.DECLARATIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala! !(2y
+java/lang/String#`+`().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala!% !(&2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.z.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala!' !((2y
+java/lang/String#`+`().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala!) !(*2y
+java/lang/String#`+`().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala!1 !(22ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.z.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala!3 !(4µ
+Ulocal2:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter14"
+endLine16"
+isValfalse"
+accessEmpty"
+displayNamei"
+startCharacter13"
+isLocalfalse"	
+package"
+isFinalfalse"
+	startLine16"
+isVarfalse"
+symbollocal2"
+
+isAbstractfalse"
+kind	PARAMETER*i2
+
+scala/Int#TYPE†
+<com/virtuslab/graphbuddy_playground/reference/Experiments.s.VALUEX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter7"
+endLine12"
+isValtrue"
+accessPublicAccess()"
+displayNames"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine12"
+isVarfalse"F
+symbol<com/virtuslab/graphbuddy_playground/reference/Experiments.s."
+
+isAbstractfalse"
+kindVALUE*s2
+java/lang/String#TYPE¾
+]localFunction3:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaTERM_FUNCTIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+isLocaltrue"
+	startLine20"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"g
+symbol]localFunction3:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter20"
+endLine22"
+kindTERM_FUNCTION"
+LOC3"
+displayNamelocalFunction3"
+startCharacter14*localFunction32{
+scala/Predef.println(+1).CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2€
+java/util/concurrent/TimeUnit#CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ˆ
+&java/util/concurrent/TimeUnit#SECONDS.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (à	
+]localFunction0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaTERM_FUNCTIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ ( "
+isLocaltrue"
+	startLine14"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"g
+symbol]localFunction0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter32"
+endLine14"
+kindTERM_FUNCTION"
+LOC1"
+displayNamelocalFunction0"
+startCharacter10*localFunction02¼
+Ulocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ (2¿
+]localFunction1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaCALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ˆ
+&scala/collection/immutable/List#map().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (µ
+Ulocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter11"
+endLine14"
+isValfalse"
+accessEmpty"
+displayNamei"
+startCharacter10"
+isLocalfalse"	
+package"
+isFinalfalse"
+	startLine14"
+isVarfalse"
+symbollocal0"
+
+isAbstractfalse"
+kind	PARAMETER*i2
+
+scala/Int#TYPEÿ
+<com/virtuslab/graphbuddy_playground/reference/Experiments.z.VALUEX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter7"
+endLine25"
+isValtrue"
+accessPublicAccess()"
+displayNamez"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine25"
+isVarfalse"F
+symbol<com/virtuslab/graphbuddy_playground/reference/Experiments.z."
+
+isAbstractfalse"
+kindVALUE*z2
+
+scala/Int#TYPEV
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaFILEµ
+Ulocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter22"
+endLine14"
+isValfalse"
+accessEmpty"
+displayNamew"
+startCharacter21"
+isLocalfalse"	
+package"
+isFinalfalse"
+	startLine14"
+isVarfalse"
+symbollocal1"
+
+isAbstractfalse"
+kind	PARAMETER*w2
+
+scala/Int#TYPEÔ
+
+]localFunction2:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scalaTERM_FUNCTIONX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+isLocaltrue"
+	startLine16"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"g
+symbol]localFunction2:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter27"
+endLine17"
+kindTERM_FUNCTION"
+LOC2"
+displayNamelocalFunction2"
+startCharacter13*localFunction22¼
+Ulocal2:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala	PARAMETERX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2˜
+6com/virtuslab/graphbuddy_playground/reference/GBClass#CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2£
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2ž
+<com/virtuslab/graphbuddy_playground/reference/Experiments.s.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (2~
+java/lang/String#toString().CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala (š
+<com/virtuslab/graphbuddy_playground/reference/Experiments.d.VALUEX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala ("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter7"
+endLine8"
+isValtrue"
+accessPublicAccess()"
+displayNamed"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine8"
+isVarfalse"F
+symbol<com/virtuslab/graphbuddy_playground/reference/Experiments.d."
+
+isAbstractfalse"
+kindVALUE*d2
+scala/package.List#TYPE2
+
+scala/Int#TYPEÆ
+Kcom/virtuslab/graphbuddy_playground/reference/Experiments.qualifiedNameFmt.VALUEX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala! !("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter22"
+endLine33"
+isValtrue"
+accessPublicAccess()"
+displayNamequalifiedNameFmt"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine33"
+isVarfalse"U
+symbolKcom/virtuslab/graphbuddy_playground/reference/Experiments.qualifiedNameFmt."
+
+isAbstractfalse"
+kindVALUE*qualifiedNameFmt2
+scala/Predef.String#TYPE¦
+Fcom/virtuslab/graphbuddy_playground/reference/Experiments.twoDirect().METHODX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ 
+("
+
+isImplicitfalse"U
+uriNsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala"
+endCharacter15"
+endLine10"
+isValfalse"
+displayName	twoDirect"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine10"
+isVarfalse"P
+symbolFcom/virtuslab/graphbuddy_playground/reference/Experiments.twoDirect()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*	twoDirect2I
+:com/virtuslab/graphbuddy_playground/reference/Experiments.RETURN_TYPE2œ
+:com/virtuslab/graphbuddy_playground/reference/Experiments.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+ 
+(2œ
+:com/virtuslab/graphbuddy_playground/reference/Experiments.CALLX
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Experiments.scala
+$ 
+(/

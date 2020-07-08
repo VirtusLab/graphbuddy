@@ -1,0 +1,10 @@
+target
+.idea
+*.csv
+*.txt
+.bloop
+.metals
+.vscode
+
+neo4j_tmp/
+project/target

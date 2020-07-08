@@ -1,0 +1,72 @@
+
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scalaŸ
+<com/virtuslab/graphbuddy_playground/demo/Graph.emptyGraph().METHODM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala ("
+
+isImplicitfalse"J
+uriCsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala"
+endCharacter16"
+endLine6"
+isValfalse"
+displayName
+emptyGraph"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine6"
+isVarfalse"F
+symbol<com/virtuslab/graphbuddy_playground/demo/Graph.emptyGraph()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC8*
+emptyGraph2p
+org/jgrapht/Graph#RETURN_TYPEM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2r
+scala/Predef.String#RETURN_TYPEM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala" ((2n
+scala/Predef.classOf().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2k
+scala/Predef.String#CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2‚
++org/jgrapht/graph/builder/GraphTypeBuilder#CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2
+6org/jgrapht/graph/builder/GraphTypeBuilder#directed().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2š
+Corg/jgrapht/graph/builder/GraphTypeBuilder#allowingMultipleEdges().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala	 	(2–
+?org/jgrapht/graph/builder/GraphTypeBuilder#allowingSelfLoops().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala
+ 
+(2Ž
+7org/jgrapht/graph/builder/GraphTypeBuilder#edgeClass().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2
+8org/jgrapht/graph/builder/GraphTypeBuilder#buildGraph().CALLM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (K
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scalaFILE€
+/com/virtuslab/graphbuddy_playground/demo/Graph.OBJECTM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala ("
+
+isImplicitfalse"J
+uriCsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala"
+endCharacter12"
+endLine5"
+isValfalse"
+displayNameGraph"
+startCharacter7"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinaltrue"
+	startLine5"
+isVarfalse"9
+symbol/com/virtuslab/graphbuddy_playground/demo/Graph."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC10*Graph2š
+<com/virtuslab/graphbuddy_playground/demo/Graph.emptyGraph().DECLARATIONM
+Csrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Graph.scala (2
+scala/AnyRef#EXTEND

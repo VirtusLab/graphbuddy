@@ -1,0 +1,317 @@
+
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scalaÁ
+dcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(evidence$1)	PARAMETER"
+
+isImplicittrue"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayName
+evidence$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"n
+symboldcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(evidence$1)"
+
+isAbstractfalse"
+kind	PARAMETER*
+evidence$12
+scala/reflect/ClassTag#TYPE2X
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPEç
+Ocom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().(parameter)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter27"
+endLine5"
+isValfalse"
+accessEmpty"
+displayName	parameter"
+startCharacter18"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine5"
+isVarfalse"Y
+symbolOcom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().(parameter)"
+
+isAbstractfalse"
+kind	PARAMETER*	parameter2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (#◊
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPE_PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ( "
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter32"
+endLine13"
+isValfalse"
+accessEmpty"
+displayNameE"
+startCharacter31"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine13"
+isVarfalse"Z
+symbolPcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]"
+
+isAbstractfalse"
+kindTYPE_PARAMETER*E2
+
+scala/Any#TYPE_PARAMETER2 
+scala/Nothing#TYPE_PARAMETERó
+
+Dcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest().METHODT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter17"
+endLine9"
+isValfalse"
+displayNameclassOfTest"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine9"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC3*classOfTest2™
+Gcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest().(w)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	(2p
+scala/Unit#RETURN_TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	( 	(,2≥
+Ucom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().(param)CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala
+ 
+(!2¨
+Ncom/virtuslab/graphbuddy_playground/reference/package.methodInPackageObject().CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala
+ 
+(…
+Dcom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().METHODT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter17"
+endLine5"
+isValfalse"
+displayNametypedMethod"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine5"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC3*typedMethod2≤
+Ocom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().(parameter)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2x
+scala/package.List#RETURN_TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala& (*2õ
+6com/virtuslab/graphbuddy_playground/reference/GBClass#RETURN_TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala+ (22î
+6com/virtuslab/graphbuddy_playground/reference/GBClass#CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2ü
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2≠
+Ocom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().(parameter)CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2~
+ scala/collection/immutable/List.CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (R
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scalaFILE‘
+Xcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#evidence$1.VALUE"
+
+isImplicittrue"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter0"
+endLine0"
+isValtrue"
+accessPrivateThisAccess()"
+displayName
+evidence$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"b
+symbolXcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#evidence$1."
+
+isAbstractfalse"
+kindVALUE*
+evidence$12
+scala/reflect/ClassTag#TYPE2X
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPEˆ
+Rcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#enum.VALUET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala, (0"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter48"
+endLine13"
+isValtrue"
+accessPrivateThisAccess()"
+displayNameenum"
+startCharacter44"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine13"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#enum."
+
+isAbstractfalse"
+kindVALUE*enum2X
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPEØ
+^com/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(enum)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNameenum"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"h
+symbol^com/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(enum)"
+
+isAbstractfalse"
+kind	PARAMETER*enum2X
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPE
+6com/virtuslab/graphbuddy_playground/reference/GBTypes.OBJECTT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter14"
+endLine4"
+isValfalse"
+displayNameGBTypes"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine4"
+isVarfalse"@
+symbol6com/virtuslab/graphbuddy_playground/reference/GBTypes."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC12*GBTypes2©
+Dcom/virtuslab/graphbuddy_playground/reference/GBTypes.typedMethod().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2©
+Dcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	(2≤
+Mcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2
+scala/AnyRef#EXTEND2´
+Mcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (2r
+scala/Predef.String#CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala (#2∂
+Xcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala$ ($»
+Gcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest().(w)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter19"
+endLine9"
+isValfalse"
+accessEmpty"
+displayNamew"
+startCharacter18"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine9"
+isVarfalse"Q
+symbolGcom/virtuslab/graphbuddy_playground/reference/GBTypes.classOfTest().(w)"
+
+isAbstractfalse"
+kind	PARAMETER*w2o
+scala/Predef.Map#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	(2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	 	(2h
+
+scala/Int#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala	! 	($î
+Xcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().CONSTRUCTORT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala$ ($"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter36"
+endLine14"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter36"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine14"
+isVarfalse"b
+symbolXcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>2k
+^com/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(enum)	PARAMETER2q
+dcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().(evidence$1)	PARAMETERÚ
+
+Mcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#CLASST
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala"
+endCharacter30"
+endLine13"
+isValfalse"%
+displayNamePrivateInnerTypedClass"
+startCharacter8"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine13"
+isVarfalse"W
+symbolMcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#"
+
+isAbstractfalse"
+kindCLASS"
+accessPublicAccess()"
+LOC1*PrivateInnerTypedClass2∑
+Rcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#enum.DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala, (02g
+Xcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#evidence$1.DECLARATION2Ω
+Xcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#`<init>`().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala$ ($2∏
+Pcom/virtuslab/graphbuddy_playground/reference/GBTypes.PrivateInnerTypedClass#[E]TYPE_PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTypes.scala ( 2
+scala/AnyRef#EXTEND

@@ -1,0 +1,140 @@
+
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scalaþ
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodD().METHODQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala
+ 
+("
+
+isImplicitfalse"N
+uriGsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala"
+endCharacter13"
+endLine10"
+isValfalse"
+displayNamemethodD"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine10"
+isVarfalse"G
+symbol=com/virtuslab/graphbuddy_playground/demo/CallChain.methodD()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodD2m
+scala/Unit#RETURN_TYPEQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala
+ 
+(2˜
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodC().CALLQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala
+ 
+(O
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scalaFILEƒ
+
+3com/virtuslab/graphbuddy_playground/demo/CallChain.OBJECTQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala ("
+
+isImplicitfalse"N
+uriGsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala"
+endCharacter16"
+endLine2"
+isValfalse"
+displayName	CallChain"
+startCharacter7"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinaltrue"
+	startLine2"
+isVarfalse"=
+symbol3com/virtuslab/graphbuddy_playground/demo/CallChain."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC11*	CallChain2Ÿ
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodA().DECLARATIONQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (2Ÿ
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodB().DECLARATIONQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (2Ÿ
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodC().DECLARATIONQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (2Ÿ
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodD().DECLARATIONQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala
+ 
+(2
+scala/AnyRef#EXTENDü
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodB().METHODQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala ("
+
+isImplicitfalse"N
+uriGsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala"
+endCharacter13"
+endLine6"
+isValfalse"
+displayNamemethodB"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine6"
+isVarfalse"G
+symbol=com/virtuslab/graphbuddy_playground/demo/CallChain.methodB()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodB2m
+scala/Unit#RETURN_TYPEQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (2˜
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodA().CALLQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (ü
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodC().METHODQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala ("
+
+isImplicitfalse"N
+uriGsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala"
+endCharacter13"
+endLine8"
+isValfalse"
+displayNamemethodC"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine8"
+isVarfalse"G
+symbol=com/virtuslab/graphbuddy_playground/demo/CallChain.methodC()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodC2m
+scala/Unit#RETURN_TYPEQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (2˜
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodB().CALLQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (á
+=com/virtuslab/graphbuddy_playground/demo/CallChain.methodA().METHODQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala ("
+
+isImplicitfalse"N
+uriGsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala"
+endCharacter13"
+endLine4"
+isValfalse"
+displayNamemethodA"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine4"
+isVarfalse"G
+symbol=com/virtuslab/graphbuddy_playground/demo/CallChain.methodA()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodA2m
+scala/Unit#RETURN_TYPEQ
+Gsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/CallChain.scala (

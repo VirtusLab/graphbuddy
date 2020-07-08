@@ -1,0 +1,57 @@
+
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scalaû
+5com/virtuslab/graphbuddy_playground/Main.greetings().METHODG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala ("
+
+isImplicitfalse"D
+uri=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala"
+endCharacter15"
+endLine3"
+isValfalse"
+displayName	greetings"
+startCharacter6"
+isLocalfalse".
+package#com.virtuslab.graphbuddy_playground"
+isFinalfalse"
+	startLine3"
+isVarfalse"?
+symbol5com/virtuslab/graphbuddy_playground/Main.greetings()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC9*	greetings2c
+scala/Unit#RETURN_TYPEG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala (2j
+scala/Predef.println(+1).CALLG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala (E
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scalaFILEº
+)com/virtuslab/graphbuddy_playground/Main.OBJECTG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala ("
+
+isImplicitfalse"D
+uri=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala"
+endCharacter11"
+endLine2"
+isValfalse"
+displayNameMain"
+startCharacter7"
+isLocalfalse".
+package#com.virtuslab.graphbuddy_playground"
+isFinaltrue"
+	startLine2"
+isVarfalse"3
+symbol)com/virtuslab/graphbuddy_playground/Main."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC14*Main2ç
+5com/virtuslab/graphbuddy_playground/Main.greetings().DECLARATIONG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala (2
+scala/AnyRef#EXTEND2]
+
+scala/App#EXTENDG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala (2Ü
+5com/virtuslab/graphbuddy_playground/Main.greetings().CALLG
+=src/main/scala/com/virtuslab/graphbuddy_playground/Main.scala (

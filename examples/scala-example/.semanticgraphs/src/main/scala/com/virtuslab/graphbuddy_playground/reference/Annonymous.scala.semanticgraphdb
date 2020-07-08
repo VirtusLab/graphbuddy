@@ -1,0 +1,136 @@
+
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaÚ
+Tlocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaMETHODW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala ("
+
+isImplicitfalse"T
+uriMsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala"
+endCharacter15"
+endLine5"
+isValfalse"
+displayNamemethodA"
+startCharacter8"
+isLocalfalse"	
+package"
+isFinalfalse"
+	startLine5"
+isVarfalse"
+symbollocal1"
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*methodA2|
+scala/Predef.String#RETURN_TYPEW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2¥
+Dcom/virtuslab/graphbuddy_playground/reference/Annonymous.HelloWorld.CALLW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (&î
+
+9com/virtuslab/graphbuddy_playground/reference/Annonymous.OBJECTW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala ("
+
+isImplicitfalse"T
+uriMsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala"
+endCharacter17"
+endLine2"
+isValfalse"
+displayName
+Annonymous"
+startCharacter7"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine2"
+isVarfalse"C
+symbol9com/virtuslab/graphbuddy_playground/reference/Annonymous."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"
+LOC6*
+Annonymous2
+scala/AnyRef#EXTEND2¬
+Dcom/virtuslab/graphbuddy_playground/reference/Annonymous.HelloWorld.DECLARATIONW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2¬
+Dcom/virtuslab/graphbuddy_playground/reference/Annonymous.annonymous.DECLARATIONW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2¼
+Tlocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaDECLARATIONW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2µ
+Tlocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaCALLW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (’
+Tlocal0:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaCLASSW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala ("
+
+isImplicitfalse"T
+uriMsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala"
+endCharacter23"
+endLine4"
+isValfalse"
+accessPublicAccess()"
+displayName$anon"
+startCharacter23"
+isLocalfalse"	
+package"
+isFinaltrue"
+	startLine4"
+isVarfalse"
+symbollocal0"
+
+isAbstractfalse"
+kindCLASS*$anon2¼
+Tlocal1:src/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaDECLARATIONW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2
+scala/AnyRef#EXTEND2š
+7com/virtuslab/graphbuddy_playground/reference/GBTraitA#EXTENDW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala (2w
+scala/Predef.String#EXTENDW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala  (&U
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scalaFILE€
+Dcom/virtuslab/graphbuddy_playground/reference/Annonymous.annonymous.VALUEW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala ("
+
+isImplicitfalse"T
+uriMsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala"
+endCharacter16"
+endLine4"
+isValtrue"
+accessPublicAccess()"
+displayName
+annonymous"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/Annonymous.annonymous."
+
+isAbstractfalse"
+kindVALUE*
+annonymous2
+scala/AnyRef#TYPE2?
+7com/virtuslab/graphbuddy_playground/reference/GBTraitA#TYPE2
+scala/Predef.String#TYPE¥
+Dcom/virtuslab/graphbuddy_playground/reference/Annonymous.HelloWorld.VALUEW
+Msrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala ("
+
+isImplicitfalse"T
+uriMsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/Annonymous.scala"
+endCharacter16"
+endLine3"
+isValtrue"
+accessPublicAccess()"
+displayName
+HelloWorld"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine3"
+isVarfalse"N
+symbolDcom/virtuslab/graphbuddy_playground/reference/Annonymous.HelloWorld."
+
+isAbstractfalse"
+kindVALUE*
+HelloWorld2
+java/lang/String#TYPE

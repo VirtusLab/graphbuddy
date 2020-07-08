@@ -1,0 +1,372 @@
+
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scalaﬁ
+Fcom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().(i)	PARAMETERR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	 	("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter20"
+endLine9"
+isValfalse"
+accessEmpty"
+displayNamei"
+startCharacter19"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine9"
+isVarfalse"P
+symbolFcom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().(i)"
+
+isAbstractfalse"
+kind	PARAMETER*i2n
+java/lang/Integer#TYPER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	 	(ö
+4com/virtuslab/graphbuddy_playground/demo/SideEffect.OBJECTR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter17"
+endLine2"
+isValfalse"
+displayName
+SideEffect"
+startCharacter7"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinaltrue"
+	startLine2"
+isVarfalse">
+symbol4com/virtuslab/graphbuddy_playground/demo/SideEffect."
+
+isAbstractfalse"
+kindOBJECT"
+accessPublicAccess()"	
+LOC12*
+SideEffect2ù
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2O
+@com/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`().DECLARATION2¶
+Ccom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	 	(2
+scala/AnyRef#EXTEND2ü
+<com/virtuslab/graphbuddy_playground/demo/SideEffect.state().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2ñ
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2°
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2ù
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.const.DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (P
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scalaFILEŸ
+?com/virtuslab/graphbuddy_playground/demo/SideEffect.State#_i().VARIABLER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter28"
+endLine3"
+isValfalse"
+accessPrivateAccess()"
+displayName_i"
+startCharacter26"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine3"
+isVartrue"I
+symbol?com/virtuslab/graphbuddy_playground/demo/SideEffect.State#_i()."
+
+isAbstractfalse"
+kindVARIABLE*_i2n
+java/lang/Integer#TYPER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (%™
+Ccom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().METHODR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	 	("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter18"
+endLine9"
+isValfalse"
+displayNameimpureMethod"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine9"
+isVarfalse"M
+symbolCcom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC4*impureMethod2ß
+Fcom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().(i)	PARAMETERR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	 	(2w
+scala/Predef.String#RETURN_TYPER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala	  	(&2¢
+Fcom/virtuslab/graphbuddy_playground/demo/SideEffect.impureMethod().(i)CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala
+ 
+(2ò
+<com/virtuslab/graphbuddy_playground/demo/SideEffect.state().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala
+ 
+(2°
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala
+ 
+(2ñ
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.const.CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (≠
+<com/virtuslab/graphbuddy_playground/demo/SideEffect.state().VARIABLER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter19"
+endLine6"
+isValfalse"
+accessPrivateAccess()"
+displayNamestate"
+startCharacter14"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine6"
+isVartrue"F
+symbol<com/virtuslab/graphbuddy_playground/demo/SideEffect.state()."
+
+isAbstractfalse"
+kindVARIABLE*state2B
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#TYPE•
+
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#CLASSR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter13"
+endLine3"
+isValfalse"
+displayNameState"
+startCharacter8"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine3"
+isVarfalse"D
+symbol:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#"
+
+isAbstractfalse"
+kindCLASS"
+accessPublicAccess()"
+LOC3*State2¢
+?com/virtuslab/graphbuddy_playground/demo/SideEffect.State#_i().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2¶
+Ccom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala! (#2®
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2®
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala
+ (2
+scala/AnyRef#EXTEND·
+Ccom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().VARIABLER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala! (#"
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter35"
+endLine4"
+isValfalse"
+accessPrivateAccess()"
+displayName_i_="
+startCharacter33"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine4"
+isVartrue"M
+symbolCcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`()."
+
+isAbstractfalse"
+kindVARIABLE*_i_=2U
+Hcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().(x$1)	PARAMETER2
+scala/Unit#TYPEº
+Hcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().(x$1)	PARAMETER"
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine0"
+isVarfalse"R
+symbolHcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+java/lang/Integer#TYPEﬁ
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`().(x$1)	PARAMETER"
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine0"
+isVarfalse"O
+symbolEcom/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12B
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.State#TYPEÒ
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().METHODR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala
+ ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter18"
+endLine4"
+isValfalse"
+displayNamesetState"
+startCharacter10"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine4"
+isVarfalse"O
+symbolEcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC1*setState2
+scala/Unit#RETURN_TYPE2©
+Hcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().(i)	PARAMETERR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (2ü
+Ccom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`_i_=`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala! (#˛
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().CONSTRUCTORR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter13"
+endLine3"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter13"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine3"
+isVarfalse"O
+symbolEcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>2V
+Icom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().(_i)	PARAMETER2†
+?com/virtuslab/graphbuddy_playground/demo/SideEffect.State#_i().	PARAMETERR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (¯
+:com/virtuslab/graphbuddy_playground/demo/SideEffect.const.VALUER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter11"
+endLine7"
+isValtrue"
+accessPublicAccess()"
+displayNameconst"
+startCharacter6"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine7"
+isVarfalse"D
+symbol:com/virtuslab/graphbuddy_playground/demo/SideEffect.const."
+
+isAbstractfalse"
+kindVALUE*const2
+java/lang/String#TYPEª
+Icom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().(_i)	PARAMETER"
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayName_i"
+startCharacter0"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine0"
+isVartrue"S
+symbolIcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#`<init>`().(_i)"
+
+isAbstractfalse"
+kind	PARAMETER*_i2
+java/lang/Integer#TYPE‚
+Hcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().(i)	PARAMETERR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala ("
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter20"
+endLine4"
+isValfalse"
+accessEmpty"
+displayNamei"
+startCharacter19"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine4"
+isVarfalse"R
+symbolHcom/virtuslab/graphbuddy_playground/demo/SideEffect.State#setState().(i)"
+
+isAbstractfalse"
+kind	PARAMETER*i2n
+java/lang/Integer#TYPER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala (à
+@com/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`().VARIABLE"
+
+isImplicitfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/SideEffect.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPrivateAccess()"
+displayNamestate_="
+startCharacter0"
+isLocalfalse"3
+package(com.virtuslab.graphbuddy_playground.demo"
+isFinalfalse"
+	startLine0"
+isVartrue"J
+symbol@com/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`()."
+
+isAbstractfalse"
+kindVARIABLE*state_=2R
+Ecom/virtuslab/graphbuddy_playground/demo/SideEffect.`state_=`().(x$1)	PARAMETER2
+scala/Unit#TYPE

@@ -1,0 +1,713 @@
+
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scalaÅ
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CONSTRUCTORT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter13"
+endLine2"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter13"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine2"
+isVarfalse"K
+symbolAcom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>2W
+Jcom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().(gbField)	PARAMETER2°
+>com/virtuslab/graphbuddy_playground/reference/GBClass#gbField.	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (’
+Ucom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals().(x$1)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"_
+symbolUcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+
+scala/Any#TYPER
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scalaFILEÏ
+>com/virtuslab/graphbuddy_playground/reference/GBClass#gbField.VALUET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter21"
+endLine2"
+isValtrue"
+accessPrivateThisAccess()"
+displayNamegbField"
+startCharacter14"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine2"
+isVarfalse"H
+symbol>com/virtuslab/graphbuddy_playground/reference/GBClass#gbField."
+
+isAbstractfalse"
+kindVALUE*gbField2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (™
+Ycom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productIterator().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameproductIterator"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"c
+symbolYcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productIterator()."
+
+isAbstractfalse"
+kindMETHOD*productIterator2)
+scala/collection/Iterator#RETURN_TYPE2
+
+scala/Any#RETURN_TYPEÂ
+]com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement().(x$1)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"g
+symbol]com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+
+scala/Int#TYPEó
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().(prefix)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (#"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter35"
+endLine6"
+isValfalse"
+accessEmpty"
+displayNameprefix"
+startCharacter29"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine6"
+isVarfalse"a
+symbolWcom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().(prefix)"
+
+isAbstractfalse"
+kind	PARAMETER*prefix2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala% (+Ò
+\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`().(param)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNameparam"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"f
+symbol\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`().(param)"
+
+isAbstractfalse"
+kind	PARAMETER*param2
+scala/Predef.String#TYPEÈ
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.toString().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNametoString"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine0"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.toString()."
+
+isAbstractfalse"
+kindMETHOD*toString2 
+java/lang/String#RETURN_TYPEÁ
+Xcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameproductElement"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"b
+symbolXcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement()."
+
+isAbstractfalse"
+kindMETHOD*productElement2j
+]com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement().(x$1)	PARAMETER2
+
+scala/Any#RETURN_TYPEÆ
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#CLASST
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter29"
+endLine4"
+isValfalse"
+displayNameGBInnerCaseClass"
+startCharacter13"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"Q
+symbolGcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#"
+
+isAbstractfalse"
+kindCLASS"
+accessPublicAccess()"
+LOC1*GBInnerCaseClass2∑
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#`<init>`().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (2]
+Ncom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#copy().DECLARATION2f
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productPrefix().DECLARATION2e
+Vcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productArity().DECLARATION2g
+Xcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElement().DECLARATION2h
+Ycom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productIterator().DECLARATION2a
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual().DECLARATION2k
+\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName().DECLARATION2a
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#hashCode().DECLARATION2a
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#toString().DECLARATION2_
+Pcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals().DECLARATION2
+scala/AnyRef#EXTEND2
+scala/Product#EXTEND2%
+scala/package.Serializable#EXTEND√
+Pcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameequals"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"Z
+symbolPcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals()."
+
+isAbstractfalse"
+kindMETHOD*equals2b
+Ucom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#equals().(x$1)	PARAMETER2
+scala/Boolean#RETURN_TYPEÕ
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNamecanEqual"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual()."
+
+isAbstractfalse"
+kindMETHOD*canEqual2d
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual().(x$1)	PARAMETER2
+scala/Boolean#RETURN_TYPEî
+Ocom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.apply().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameapply"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"Y
+symbolOcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.apply()."
+
+isAbstractfalse"
+kindMETHOD*apply2V
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#RETURN_TYPEÌ
+acom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName().(x$1)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"k
+symbolacom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+
+scala/Int#TYPE»
+Qcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameunapply"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"[
+symbolQcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply()."
+
+isAbstractfalse"
+kindMETHOD*unapply2c
+Vcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply().(x$0)	PARAMETER2
+scala/Boolean#RETURN_TYPEé
+Pcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#param.VALUET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+$ 
+()"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter41"
+endLine10"
+isValtrue"
+accessPrivateThisAccess()"
+displayNameparam"
+startCharacter36"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine10"
+isVarfalse"Z
+symbolPcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#param."
+
+isAbstractfalse"
+kindVALUE*param2r
+scala/Predef.String#TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
++ 
+(1˛
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productPrefix().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameproductPrefix"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"a
+symbolWcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productPrefix()."
+
+isAbstractfalse"
+kindMETHOD*productPrefix2 
+java/lang/String#RETURN_TYPEØ	
+Ocom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().METHODT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter28"
+endLine6"
+isValfalse"%
+displayNamehelloGraphBuddyMessage"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine6"
+isVarfalse"Y
+symbolOcom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage()."
+
+isAbstractfalse"
+kindMETHOD"
+accessPublicAccess()"
+LOC3*helloGraphBuddyMessage2∫
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().(prefix)	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (#2y
+scala/Predef.String#RETURN_TYPET
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala. (42µ
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().(prefix)CALLT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (ê
+Ncom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#copy().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNamecopy"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"X
+symbolNcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#copy()."
+
+isAbstractfalse"
+kindMETHOD*copy2V
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#RETURN_TYPEÍ
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#toString().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNametoString"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#toString()."
+
+isAbstractfalse"
+kindMETHOD*toString2 
+java/lang/String#RETURN_TYPE∆
+6com/virtuslab/graphbuddy_playground/reference/GBClass#CLASST
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter13"
+endLine2"
+isValfalse"
+displayNameGBClass"
+startCharacter6"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine2"
+isVarfalse"@
+symbol6com/virtuslab/graphbuddy_playground/reference/GBClass#"
+
+isAbstractfalse"
+kindCLASS"
+accessPublicAccess()"	
+LOC10*GBClass2£
+>com/virtuslab/graphbuddy_playground/reference/GBClass#gbField.DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (2¶
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (2¨
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (2V
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.DECLARATION2¥
+Ocom/virtuslab/graphbuddy_playground/reference/GBClass#helloGraphBuddyMessage().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala (2Ø
+Jcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+ 
+(#2
+scala/AnyRef#EXTENDî
+Vcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply().(x$0)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$0"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"`
+symbolVcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply().(x$0)"
+
+isAbstractfalse"
+kind	PARAMETER*x$02O
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#TYPE‹
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.OBJECTT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameGBInnerCaseClass"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinaltrue"
+	startLine0"
+isVarfalse"Q
+symbolGcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass."
+
+isAbstractfalse"
+kindOBJECT*GBInnerCaseClass2a
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.toString().DECLARATION2^
+Ocom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.apply().DECLARATION2`
+Qcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass.unapply().DECLARATION2*
+ scala/runtime/AbstractFunction0#EXTEND2Q
+Gcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#EXTEND2
+java/io/Serializable#EXTEND¶
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#`<init>`().CONSTRUCTORT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala ("
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter29"
+endLine4"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter29"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine4"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>„
+Rcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#hashCode().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNamehashCode"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#hashCode()."
+
+isAbstractfalse"
+kindMETHOD*hashCode2
+
+scala/Int#RETURN_TYPEø
+Jcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#CLASST
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+ 
+(#"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter35"
+endLine10"
+isValfalse""
+displayNameGBInnerPrivateClass"
+startCharacter16"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine10"
+isVarfalse"T
+symbolJcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#"
+
+isAbstractfalse"
+kindCLASS"
+accessPrivateAccess()"
+LOC1*GBInnerPrivateClass2µ
+Pcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#param.DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+$ 
+()2∫
+Ucom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`().DECLARATIONT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+# 
+(#2
+scala/AnyRef#EXTENDÛ
+Vcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productArity().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"
+displayNameproductArity"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"`
+symbolVcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productArity()."
+
+isAbstractfalse"
+kindMETHOD*productArity2
+
+scala/Int#RETURN_TYPEÇ
+\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName().METHOD"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessPublicAccess()"!
+displayNameproductElementName"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"f
+symbol\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName()."
+
+isAbstractfalse"
+kindMETHOD*productElementName2n
+acom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#productElementName().(x$1)	PARAMETER2 
+java/lang/String#RETURN_TYPEŸ
+Wcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual().(x$1)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamex$1"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"a
+symbolWcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerCaseClass#canEqual().(x$1)"
+
+isAbstractfalse"
+kind	PARAMETER*x$12
+
+scala/Any#TYPE—
+Jcom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().(gbField)	PARAMETER"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter0"
+endLine0"
+isValfalse"
+accessEmpty"
+displayNamegbField"
+startCharacter0"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine0"
+isVarfalse"T
+symbolJcom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().(gbField)"
+
+isAbstractfalse"
+kind	PARAMETER*gbField2
+scala/Predef.String#TYPEœ
+Ucom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`().CONSTRUCTORT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+# 
+(#"
+
+isImplicitfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala"
+endCharacter35"
+endLine10"
+isValfalse"
+accessPublicAccess()"
+displayName<init>"
+startCharacter35"
+isLocalfalse"8
+package-com.virtuslab.graphbuddy_playground.reference"
+isFinalfalse"
+	startLine10"
+isVarfalse"_
+symbolUcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`()."
+
+isAbstractfalse"
+kindCONSTRUCTOR*<init>2i
+\com/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#`<init>`().(param)	PARAMETER2≥
+Pcom/virtuslab/graphbuddy_playground/reference/GBClass#GBInnerPrivateClass#param.	PARAMETERT
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBClass.scala
+$ 
+()
