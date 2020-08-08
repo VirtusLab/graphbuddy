@@ -2,13 +2,16 @@
 
 ## Your new best pal to help you understand your Scala code better
 
-With today's IDEs, we are all forced to browse code by looking at flat-file structures, with almost no information about the semantic dependencies between particular code units.
-What if we could take a look at our code from above - and instead of seeing just source code in text files - go through colorful graph nodes that instantly and clearly show you dependencies and other essential bits extracted from your codebase?
+With today's IDEs, we are all forced to browse the code written as text in flatly-structured files, with almost no information about the semantic dependencies between particular code units.
+What if we could take a different look and, instead of seeing just source code in text files, go through colorful graph nodes that instantly and clearly show you dependencies and other essential structural bits extracted from your codebase?
 
 ## How Graph Buddy can help you?
 
-Graph Buddy allows you to extract semantic code graph data from your project, giving you more context about the code.
-The graph board provides a set of useful features that will help you browse through twisted dependencies quicker, giving you a better understanding of the code structure in your codebase. In short, Graph Buddy aims to speed up your process of reading and learning about the project.
+Graph Buddy aims to speed up your process of reading and learning about the source code. The Graph Buddy plugin provides a set of useful features and techniques that will help you easily browse through the twisted code dependencies. At the same time, it gives you a better understanding of the code structure in your codebase.
+
+## How it works?
+
+During compilation Graph Buddy extracts additional project metadata - Semantic Code Graph files (stored in `.semanticgraphs` folder). These files are consumed and visualized as an interactive graph in Graph Buddy plugin.
 
 ![Graph Buddy User flow](assets/gifs/extension-preview.gif)
 
@@ -19,6 +22,7 @@ The graph board provides a set of useful features that will help you browse thro
 - [Say hello to Graph Buddy!](#say-hello-to-graph-buddy)
   - [Your new best pal to help you understand your Scala code better](#your-new-best-pal-to-help-you-understand-your-scala-code-better)
   - [How Graph Buddy can help you?](#how-graph-buddy-can-help-you)
+  - [How it works?](#how-it-works)
 - [Table of Contents](#table-of-contents)
 - [Supported languages](#supported-languages)
 - [Installing and configuring the extension](#installing-and-configuring-the-extension)
@@ -60,7 +64,7 @@ To make it work, you need to:
 
 ## Your project configuration
 
-Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
+The graph files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
 *Note:* You can play around with the Graph Buddy using our scala [example](https://github.com/VirtusLab/graphbuddy/tree/master/examples/scala-example). Just open this project inside your IDE (IntelliJ or VSCode) with installed Graph Buddy plugin (available via IDE official marketplace).
 
