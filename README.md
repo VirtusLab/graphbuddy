@@ -179,7 +179,7 @@ You can perform several interactions on the Graph Buddy board to better understa
 
 ### Advanced queries (very much experimental)
 
-Graph Buddy logic is backed up currently by the OrientDB database. We decided to use this feature and allows user experimenting and writing custom queries. We believe that it might bring some interesting feedback and ideas as today's search options in IDE are usually nothing more than advanced `grep`. Searching through the graphs allows for constructing more advanced searches using the power of semantic data and non-trivial nodes/edges properties or combinations of both.
+Graph Buddy logic is backed up currently by the OrientDB database. We decided to use this feature and allows user experimenting and writing custom queries. We believe that it might bring some interesting feedback and ideas as today's search options in IDE are usually nothing more than advanced `grep`. Searching through the graphs allows constructing more advanced searches using the power of semantic data and non-trivial nodes/edges properties or combinations of both.
 
 As an example, let's say you want to find all the places where some particular library is used in your source code. With graph [SQL dialect](https://orientdb.com/docs/3.0.x/sql/) query, it will be simply:
 
