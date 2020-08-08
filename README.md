@@ -62,6 +62,8 @@ To make it work, you need to:
 
 Graph Files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
+*Note:* You can play around with the Graph Buddy using our scala [example](https://github.com/VirtusLab/graphbuddy/tree/master/examples/scala-example). Just open this project inside your IDE (IntelliJ or VSCode) with installed Graph Buddy plugin (available via IDE official marketplace).
+
 ### Scala configuration
 
 The only requirement is the scalac compiler plugin. Configuration for sbt:
