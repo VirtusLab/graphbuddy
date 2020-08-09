@@ -126,7 +126,7 @@ It will open the Graph Buddy board; just wait for the reindexing process to fini
 
 ### Indexing the graph
 
-In Intellij and VSCode graph will be reindexed automatically during the project startup.
+In Intellij and VSCode the graph will be reindexed automatically during the project startup.
 
 To reindex graph manually:
 
