@@ -2,16 +2,16 @@
 
 ## Your new best pal to help you understand your Scala code better
 
-With today's IDEs, we are all forced to browse the code written as text in flatly-structured files, with almost no information about the semantic dependencies between particular code units.
+With today's IDEs, we are all forced to browse code written as text in flatly-structured files, with almost no information about the semantic dependencies between particular code units.
 What if we could take a different look and, instead of seeing just source code in text files, go through colorful graph nodes that instantly and clearly show you dependencies and other essential structural bits extracted from your codebase?
 
-## How Graph Buddy can help you?
+## How can Graph Buddy help you?
 
-Graph Buddy aims to speed up your process of reading and learning about the source code. The Graph Buddy plugin provides a set of useful features and techniques that will help you easily browse through the twisted code dependencies. At the same time, it gives you a better understanding of the code structure in your codebase.
+Graph Buddy aims to speed up your process of reading and learning about source codes. The Graph Buddy plugin provides a set of useful features and techniques that will help you easily browse through twisted code dependencies. At the same time, it gives you a better understanding of the code structure in your codebase.
 
-## How it works?
+## How does it work?
 
-During compilation Graph Buddy extracts additional project metadata - Semantic Code Graph files (stored in `.semanticgraphs` folder). These files are consumed and visualized as an interactive graph in Graph Buddy plugin.
+During compilation Graph Buddy extracts additional project metadata - Semantic Code Graph files (stored in `.semanticgraphs` folder). These files are consumed and visualized as an interactive graph in the Graph Buddy plugin.
 
 ![Graph Buddy User flow](assets/gifs/extension-preview.gif)
 
@@ -21,8 +21,8 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
 
 - [Say hello to Graph Buddy!](#say-hello-to-graph-buddy)
   - [Your new best pal to help you understand your Scala code better](#your-new-best-pal-to-help-you-understand-your-scala-code-better)
-  - [How Graph Buddy can help you?](#how-graph-buddy-can-help-you)
-  - [How it works?](#how-it-works)
+  - [How can Graph Buddy help you?](#how-can-graph-buddy-help-you)
+  - [How does it work?](#how-does-it-work)
 - [Table of Contents](#table-of-contents)
 - [Supported languages](#supported-languages)
 - [Installing and configuring the extension](#installing-and-configuring-the-extension)
@@ -50,10 +50,10 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
 ---
 # Supported languages
 
-⚠ Graph Buddy is an experimental project and currently supports only:
+⚠ Graph Buddy is an experimental project and currently only supports:
 
-- Scala language - via scalac compiler plugin [see](#your-project-configuration) (70% completeness)
-- TypeScript language - initial experimental support (20% completeness)
+- Scala language - via scalac compiler [plugin](#your-project-configuration) (70% completed)
+- TypeScript language - initial experimental support (20% completed)
 
 # Installing and configuring the extension
 
@@ -66,7 +66,7 @@ To make it work, you need to:
 
 The graph files will be generated during the compilation and stored in `.semanticgraphs` folder.
 
-*Note:* You can play around with the Graph Buddy using our scala [example](https://github.com/VirtusLab/graphbuddy/tree/master/examples/scala-example). Just open this project inside your IDE (IntelliJ or VSCode) with installed Graph Buddy plugin (available via IDE official marketplace).
+*Note:* You can play around with Graph Buddy using our scala [example](https://github.com/VirtusLab/graphbuddy/tree/master/examples/scala-example). Just open this project inside your IDE (IntelliJ or VSCode) with the Graph Buddy plugin installed (available via IDE official marketplace).
 
 ### Scala configuration
 
@@ -86,9 +86,9 @@ sbt clean test:compile
 
 ### TypeScript configuration (experimental support)
 
-Typescript data will be generated based on project configuration defined in `tsconfig.json`:
+Typescript data will be generated based on the project configuration defined in `tsconfig.json`:
 
-⚠ Currently, you can play with Typescript, but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all unhandled currently cases. We recommend using a Graph Buddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
+⚠ Currently, you can play with Typescript, but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all currently unhandled cases. We recommend using a Graph Buddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
 
 ## Installing a plugin
 
@@ -100,26 +100,26 @@ The plugin is available for:
 - IntelliJ [here](https://plugins.jetbrains.com/plugin/13467-graph-buddy)
 - VSCode [here](https://marketplace.visualstudio.com/items?itemName=virtuslab.graph-buddy)
 
-You can install the plugin directly in your IDE - simply navigate to store inside your IDE and search for `Graph Buddy`.
+You can install the plugin directly in your IDE - simply navigate to the store inside your IDE and search for `Graph Buddy`.
 
 ---
 
 # How to use Graph Buddy
 
 Graph Buddy plugin adds a unique view into your IDE.
-You can perform visual operations, both clicking on your code and on the graph visualization. Doing so will modify the graph structure accordingly, showcasing semantics info about your project.
+You can perform visual operations, both by clicking on your code or on the graph visualization. Doing so will modify the graph structure accordingly, showcasing semantics info about your project.
 
 ## Opening the Graph Buddy board
 
 ### IntelliJ
 
-Look after a 'GraphBuddy' tab in the bottom right corner and press it.
+Look for a 'GraphBuddy' tab in the bottom right corner and press it.
 
 ![Graph Buddy User flow](assets/gifs/extension-intellij.gif)
 
 ### VSCode
 
-Click `GraphBuddy` icon in the activity bar (left), then press the `Open Graph Buddy window` button.
+Click the `GraphBuddy` icon in the activity bar (left), then press the `Open Graph Buddy window` button.
 It will open the Graph Buddy board; just wait for the reindexing process to finish and start browsing!
 
 ![Graph Buddy User flow](assets/gifs/extension-vscode.gif)
@@ -139,11 +139,11 @@ To reindex graph manually:
 
 #### Navigating through the project
 
-Each declaration or definition is represented as *node* and the connection between them as an *edge*. When browsing the code, Graph Buddy will update the graph board interactively. Additionally, by right-clicking in a text editor, you can draw the graph for the whole file unit or for particular definition.
+Each declaration or definition is represented as a *node* and the connection between them as an *edge*. When browsing the code, Graph Buddy will update the graph board interactively. Additionally, by right-clicking in a text editor, you can draw the graph for the whole file unit or for a particular definition.
 
 ![Graph Buddy User flow](assets/gifs/extension-flow-1.gif)
 
-You can perform several interactions on the Graph Buddy board to better understand the code structure. Choose between a range of features like find a path between nodes, show the history of last clicked elements, change pointing edges direction, filter by node kind, and many more!
+You can perform several interactions on the Graph Buddy board to better understand the code structure. Choose between a range of features like: finding a path between nodes; showing the history of last elements clicked; changing pointing edges direction; filtering by node kind, and many more!
 
 ![Graph Buddy User flow](assets/gifs/extension-flow-2.gif)
 ![Graph Buddy User flow](assets/gifs/extension-flow-3.gif)
@@ -151,12 +151,12 @@ You can perform several interactions on the Graph Buddy board to better understa
 
 #### The board
 
-1. By clicking on the node, the graph will highlight the corresponding node definition in the source code.
-2. By clicking on the edge, the graph will highlight the node usage in the source code.
-3. Right-clicking on node or edge opens up a context menu that contains additional operations (such as finding method callers or general node usages).
-4. By shift-clicking node, you remove it from the Graph Buddy board.
-5. By double-clicking on the node, you extend the graph adding descending nodes.
-6. When hovering over the node or edge, a tooltip shows up with available data object info.
+1. By clicking on a node, the graph will highlight the corresponding node definition in the source code.
+2. By clicking on an edge, the graph will highlight the node usage in the source code.
+3. Right-clicking on a node or an edge opens up a context menu that contains additional operations (such as finding method callers or general node usages).
+4. By shift-clicking a node, you remove it from the Graph Buddy board.
+5. By double-clicking on a node, you extend the graph by adding descending nodes.
+6. When hovering over the node or the edge, a tooltip shows up with available data object info.
 7. When using a mouse scroll wheel, you either zoom in or out.
 8. Pressing `:` opens up a CLI, that works like a *fuzzy search*, searching through network data nodes/edges and their params.
 
@@ -169,19 +169,19 @@ You can perform several interactions on the Graph Buddy board to better understa
 
 #### Bottom buttons
 
-1. 3D Switcher - a network switcher, changing network manager between 2d and 3d graph (VSCode only!)
-2. Freeze button (lock icon) - freezes current graph, not allowing to extend it with data or remove data (filtering level still works)
-3. Display history (book icon) - displays history of up to last clicked nodes
-4. Clean data (trash icon) - clears network data
-5. Find path (two connected dots icon) - opens up a modal that allows selecting two nodes, then upon accepting, it highlights path between these two nodes
-6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges
-7. Network config (gears icon) - opens up a modal that allows you to customize network filtering options
+1. 3D Switcher - a network switcher which toggles network manager between the 2D and 3D graph.
+2. Freeze button (lock icon) - freezes current graph, preventing extending it with data or removing data (filtering level still works).
+3. Display history (book icon) - displays history of up to 10 last clicked nodes.
+4. Clean data (trash icon) - clears network data.
+5. Find path (two connected dots icon) - opens up a modal that allows you to select two nodes and it highlights the path between these two nodes.
+6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges.
+7. Network config (gears icon) - opens up a modal that allows you to customize network filtering options.
 
 ### Advanced queries (very much experimental)
 
-Graph Buddy logic is backed up currently by the OrientDB database. We decided to use this feature and allows user experimenting and writing custom queries. We believe that it might bring some interesting feedback and ideas as today's search options in IDE are usually nothing more than advanced `grep`. Searching through the graphs allows constructing more advanced searches using the power of semantic data and non-trivial nodes/edges properties or combinations of both.
+Graph Buddy logic is backed up currently by the OrientDB database. We decided to use this feature to allow users experiment and write custom queries. We believe that it might bring some new interesting feedback and ideas as today's search options in IDE are usually nothing more than advanced `grep`. Searching through the graphs let user construct more advanced searches using the power of semantic data and non-trivial node/edge properties or combinations of both.
 
-As an example, let's say you want to find all the places where some particular library is used in your source code. With graph [SQL dialect](https://orientdb.com/docs/3.0.x/sql/) query, it will be simply:
+As an example, let's say you want to find all the places where some particular library is used in your source code. With graph [SQL dialect](https://orientdb.com/docs/3.0.x/sql/) query, it will simply be:
 
 ```sql
 SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%")
