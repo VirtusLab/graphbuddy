@@ -74,7 +74,7 @@ The only requirement is the scalac compiler plugin. Configuration for sbt:
 
 ```scala
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.2" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.6" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
