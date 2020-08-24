@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package com.virtuslab.semanticgraphs.proto.model;
+
+message Location {
+    string uri = 1;
+    int32 startLine = 2;
+    int32 startCharacter = 3;
+    int32 endLine = 4;
+    int32 endCharacter = 5;
+}
+
+message Edge {
+    string to = 1;
+    string type = 2;
+    Location location = 3;
+}
+
+message GraphNode {
+    string id = 1;
+    string kind = 2;
+    Location location = 3;
+    map<string, string> properties = 4;
+    string displayName = 5;
+    repeated Edge edges = 6;
+}
+
+message SemanticGraphFile {
+    string uri = 1;
+    repeated GraphNode nodes = 2;
+}
