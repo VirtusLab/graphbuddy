@@ -41,6 +41,7 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
       - [The board](#the-board)
       - [Top navigation bar](#top-navigation-bar)
       - [Bottom buttons](#bottom-buttons)
+    - [Context menu in Code Editor](#context-menu-in-code-editor)
     - [Advanced queries (very much experimental)](#advanced-queries-very-much-experimental)
 - [Roadmap](#roadmap)
   - [Released](#released)
@@ -176,6 +177,14 @@ You can perform several interactions on the Graph Buddy board to better understa
 5. Find path (two connected dots icon) - opens up a modal that allows you to select two nodes and it highlights the path between these two nodes.
 6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges.
 7. Network config (gears icon) - opens up a modal that allows you to customize network filtering options.
+
+### Context menu in Code Editor
+
+Context menu in Code Editor (right click), after Graph Buddy installation, will have two additional options:
+
+1. `Graph Buddy: Graph for Symbol` - it will draw the Semantic Code Graph for selected symbol (please try out for example on class name).
+2. `Graph Buddy: Graph for File` - it will draw the Semantic Code Graph for given file (if the file is huge, contains a lot of nodes, it may take a while).
+3. *Intellij, only on `.sql` files in `.graphbuddy` folder, `Graph Buddy: Run on Graph` - you can select the query and run it on Graph Board (it will remove the currently visible graph).
 
 ### Advanced queries (very much experimental)
 
