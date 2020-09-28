@@ -36,11 +36,8 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
     - [VSCode](#vscode)
     - [Indexing the graph](#indexing-the-graph)
   - [Graph Buddy features](#graph-buddy-features)
-    - [Graph Buddy board](#graph-buddy-board)
-      - [Navigating through the project](#navigating-through-the-project)
-      - [The board](#the-board)
-      - [Top navigation bar](#top-navigation-bar)
-      - [Bottom buttons](#bottom-buttons)
+    - [List of functionalities](#list-of-functionalities)
+    - [Navigating through the project](#navigating-through-the-project)
     - [Context menu in Code Editor](#context-menu-in-code-editor)
     - [Advanced queries (very much experimental)](#advanced-queries-very-much-experimental)
 - [Roadmap](#roadmap)
@@ -136,9 +133,171 @@ To reindex graph manually:
 
 ## Graph Buddy features
 
-### Graph Buddy board
+### List of functionalities
 
-#### Navigating through the project
+#### IDE Side
+
+<table>
+  <tr>
+    <td>Code highlight</td>
+    <td>When clicking inside code editor, corresponding nodes and connected to it edges will be highlighted or dynamically added</td>
+  </tr>
+  <tr>
+    <td>Code context menu</td>
+    <td>By right-clicking on code, you have an option to render graph for both file and symbol, which will display either full graph per file or all connections for current symbol.</td>
+  </tr>
+  <tr>
+    <td>Reindex menu options</td>
+    <td>By clicking 'Reindex graph (*add mode)' in menu bar (IntelliJ) or in left-side panel (VSCode) you index server with newest data with override or *adding to existing data mode</td>
+  </tr>
+  <tr>
+    <td>Codelens</td>
+    <td>A codelens (tooltip text) that appears above queries in .sql files in .graphbuddy folder, that allows you to run query and display the result on graph / text</td>
+  </tr>
+  <tr>
+    <td>Theming</td>
+    <td>Webview styles change depending on selected IDE theme</td>
+  </tr>
+</table>
+
+#### Unique to VSCode
+
+<table>
+  <tr>
+    <td>Side panel</td>
+    <td>A Graph Buddy icon should exist on the left side panel of vscode</td>
+  </tr>
+  <tr>
+    <td>Start extension panel button</td>
+    <td>In plugin panel window a welcome button exists, thats opens up an extension and changes view to advanced options</td>
+  </tr>
+  <tr>
+    <td>Main panel options</td>
+    <td>Panel window contains options such as: reindex options, show graph options, open new Graph Buddy window</td>
+  </tr>
+  <tr>
+    <td>Advanced query editor</td>
+    <td>Window that contains all .sql files and allows to add, delete, rename; files are located in '/workspace/.graphbuddy' folder</td>
+  </tr>
+</table>
+
+#### Webview-side
+
+**NOTE: The base network mode for features is 2d, some features are not/less available on 3d graph.**
+
+#### Graph canvas
+
+<table>
+  <tr>
+    <td>Graph highlighting</td>
+    <td>By clicking on nodes or edges, graph will highlight corresponding nodes and edges</td>
+  </tr>
+  <tr>
+     <td>Graph data styles</td>
+     <td>Each data object has its own unique styling</td>
+  </tr>
+  <tr>
+    <td>Removing data</td>
+    <td>By shift-clicking node (or choosing option in context menu), you remove it from the webview</td>
+  </tr>
+  <tr>
+    <td>Adding data to the graph</td>
+    <td>By double clicking on node you extend the graph by adding data corresponding with clicked node</td>
+  </tr>
+  <tr>
+    <td>Data positioning</td>
+    <td>By dragging nodes you position them on the canvas</td>
+  </tr>
+  <tr>
+    <td>Info on hover</td>
+    <td>By hovering over node/edge, a popup appears that contains some additional info about targeted data object</td>
+  </tr>
+  <tr>
+    <td>Context menu</td>
+    <td>By right clicking on canvas, you open up a context menu with options depending on clicked data: node, edge, data kind or background</td>
+  </tr>
+  <tr>
+    <td>Flash messages</td>
+    <td>By performing various actions, flash message will display above interface buttons panel</td>
+  </tr>
+</table>
+
+#### Navigation bar
+
+<table>
+  <tr>
+    <td>Filtering options</td>
+    <td>By clicking the buttons in filtering menu, you toggle visibility of corresponding node/edge kind</td>
+  </tr>
+  <tr>
+    <td>Layout options</td>
+    <td>By switching layout in the navigation bar (layers icon), you change rendering method of the graph (classic, vertical, horizontal)</td>
+  </tr>
+  <tr>
+    <td>Network settings</td>
+    <td>By selecting additional network options, you can adjust graph visibility and amount of visible informations to your liking </td>
+  </tr>
+</table>
+
+#### Interface buttons
+
+<table>
+  <tr>
+    <td>Switch graph mode</td>
+    <td>By clicking switch graph mode button, you change between 2d and 3d network</td>
+  </tr>
+  <tr>
+    <td>Freeze graph</td>
+    <td>By clicking freeze graph button, you lock the graph disallowing it to update any data</td>
+  </tr>
+  <tr>
+    <td>Force directed graph</td>
+    <td>By clicking force directed graph button, you toggle real-time physics interactions on graph</td>
+  </tr>
+  <tr>
+    <td>Reorganise graph</td>
+    <td>By clicking reorganise graph button, you reorganise network nodes positions</td>
+  </tr>
+  <tr>
+    <td>Clear graph</td>
+    <td>By clicking clear network data graph button, you clear all existing graph data</td>
+  </tr>
+  <tr>
+    <td>Show click history</td>
+    <td>By clicking show history button, you set the graph data to last 10 clicked nodes</td>
+  </tr>
+  <tr>
+    <td>Find path modal</td>
+    <td>By clicking find path button, you open up a modal that allows you to find connection and highlight path between selected nodes</td>
+  </tr>
+  <tr>
+    <td>Fuzzy search</td>
+    <td>By clicking fuzzy search button (or by pressing ':'), you open up a modal that allows you to search and highlight data based on typed query</td>
+  </tr>
+  <tr>
+    <td>Graph file manager</td>
+    <td>By clicking graph file manager button, you open up a modal that allows you to save current graph data snapshot or load it, from a file; default location is /workspace/.graphbuddy</td>
+  </tr>
+</table>
+
+#### Keyboard shortcuts
+
+<table>
+  <tr>
+    <td>Revert action</td>
+    <td>By pressing 'ctrl+z' you revert last action (add/update/remove/re-position)</td>
+  </tr>
+  <tr>
+    <td>Close modal</td>
+    <td>By pressing 'esc' you close any modal currently active</td>
+  </tr>
+  <tr>
+    <td>Fuzzy search</td>
+    <td>By pressing ':' open fuzzy search modal</td>
+  </tr>
+</table>
+
+### Navigating through the project
 
 Each declaration or definition is represented as a *node* and the connection between them as an *edge*. When browsing the code, Graph Buddy will update the graph board interactively. Additionally, by right-clicking in a text editor, you can draw the graph for the whole file unit or for a particular definition.
 
@@ -150,43 +309,7 @@ You can perform several interactions on the Graph Buddy board to better understa
 ![Graph Buddy User flow](assets/gifs/extension-flow-3.gif)
 ![Graph Buddy User flow](assets/gifs/extension-flow-4.gif)
 
-#### The board
-
-1. By clicking on a node, the graph will highlight the corresponding node definition in the source code.
-2. By clicking on an edge, the graph will highlight the node usage in the source code.
-3. Right-clicking on a node or an edge opens up a context menu that contains additional operations (such as finding method callers or general node usages).
-4. By shift-clicking a node, you remove it from the Graph Buddy board.
-5. By double-clicking on a node, you extend the graph by adding descending nodes.
-6. When hovering over the node or the edge, a tooltip shows up with available data object info.
-7. When using a mouse scroll wheel, you either zoom in or out.
-8. Pressing `:` opens up a CLI, that works like a *fuzzy search*, searching through network data nodes/edges and their params.
-
-#### Top navigation bar
-
-1. You can filter out some nodes or edges using a filter icon in the navigation bar.
-2. You can switch graph layouts (classic, vertical, horizontal) using the navigation bar.
-3. In additional settings, by checking/unchecking the `Inward edges` option, you switch between edges modes: inward and outward (edges pointing in or out).
-4. In additional settings, `Show non-browsable nodes` checkbox allows you to filter out nodes not directly defined in your source code (e.g., external dependencies, definitions generated by the compiler).
-
-#### Bottom buttons
-
-1. 3D Switcher - a network switcher which toggles network manager between the 2D and 3D graph.
-2. Freeze button (lock icon) - freezes current graph, preventing extending it with data or removing data (filtering level still works).
-3. Display history (book icon) - displays history of up to 10 last clicked nodes.
-4. Clean data (trash icon) - clears network data.
-5. Find path (two connected dots icon) - opens up a modal that allows you to select two nodes and it highlights the path between these two nodes.
-6. Refresh graph (refresh icon) - refresh graph by redrawing all nodes and edges.
-7. Network config (gears icon) - opens up a modal that allows you to customize network filtering options.
-
-### Context menu in Code Editor
-
-Context menu in Code Editor (right click), after Graph Buddy installation, will have two additional options:
-
-1. `Graph Buddy: Graph for Symbol` - it will draw the Semantic Code Graph for selected symbol (please try out for example on class name).
-2. `Graph Buddy: Graph for File` - it will draw the Semantic Code Graph for given file (if the file is huge, contains a lot of nodes, it may take a while).
-3. *Intellij, only on `.sql` files in `.graphbuddy` folder, `Graph Buddy: Run on Graph` - you can select the query and run it on Graph Board (it will remove the currently visible graph).
-
-### Advanced queries (very much experimental)
+#### Advanced queries (very much experimental)
 
 Graph Buddy logic is backed up currently by the OrientDB database. We decided to use this feature to allow users experiment and write custom queries. We believe that it might bring some new interesting feedback and ideas as today's search options in IDE are usually nothing more than advanced `grep`. Searching through the graphs let user construct more advanced searches using the power of semantic data and non-trivial node/edge properties or combinations of both.
 
