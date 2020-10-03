@@ -68,7 +68,15 @@ The graph files will be generated during the compilation and stored in `.semanti
 
 ### Scala configuration
 
-The only requirement is the scalac compiler plugin. Configuration for sbt:
+The only requirement is the scalac compiler plugin. 
+
+For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt` with the content:
+```
+resolvers += Resolver.bintrayIvyRepo("virtuslab", "graphbuddy")
+addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.8")
+```
+
+or add scalac compiler plugin directly:
 
 ```scala
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
