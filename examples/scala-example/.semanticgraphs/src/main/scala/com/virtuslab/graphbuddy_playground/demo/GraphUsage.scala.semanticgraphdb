@@ -1,50 +1,50 @@
 
 Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala¤
 6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g.VALUER
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (	"
-
-isImplicitfalse"O
-uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala"
-endCharacter9"
-endLine3"
-isValtrue"
-accessPublicAccess()"
-displayNameg"
-startCharacter8"
-isLocalfalse"3
-package(com.virtuslab.graphbuddy_playground.demo"
-isFinalfalse"
-	startLine3"
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (	"
+endLine3"
 isVarfalse"@
-symbol6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g."
+symbol6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g."3
+package(com.virtuslab.graphbuddy_playground.demo"
+accessPublicAccess()"
+displayNameg"
+kindVALUE"
+	startLine3"
+isValtrue"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala"
 
-isAbstractfalse"
-kindVALUE*g2
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter9"
+startCharacter8"
+isFinalfalse*g2
 org/jgrapht/Graph#TYPE2
 scala/Predef.String#TYPE2
 scala/Predef.String#TYPEÖ
 
 4com/virtuslab/graphbuddy_playground/demo/GraphUsage.OBJECTR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala ("
-
-isImplicitfalse"O
-uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala"
-endCharacter17"
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala ("
 endLine2"
-isValfalse"
-displayName
-GraphUsage"
-startCharacter7"
-isLocalfalse"3
-package(com.virtuslab.graphbuddy_playground.demo"
-isFinaltrue"
-	startLine2"
 isVarfalse">
-symbol4com/virtuslab/graphbuddy_playground/demo/GraphUsage."
+symbol4com/virtuslab/graphbuddy_playground/demo/GraphUsage."3
+package(com.virtuslab.graphbuddy_playground.demo"
+accessPublicAccess()"
+displayName
+GraphUsage"
+kindOBJECT"
+	startLine2"
+isValfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala"
 
-isAbstractfalse"
-kindOBJECT"
-accessPublicAccess()"
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter17"
+startCharacter7"
+isFinaltrue"
 LOC4*
 GraphUsage2
 scala/AnyRef#EXTEND2™
@@ -57,5 +57,5 @@ Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (
 6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g.CALLR
 Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2z
 org/jgrapht/Graph#addVertex().CALLR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (P
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scalaFILE
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (š
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scalaFILE*Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala

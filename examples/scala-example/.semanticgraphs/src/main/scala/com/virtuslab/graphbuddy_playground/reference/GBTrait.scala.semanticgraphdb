@@ -1,25 +1,25 @@
 
 Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scalaã
 7com/virtuslab/graphbuddy_playground/reference/GBTraitA#TRAITT
-Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
-
-isImplicitfalse"Q
-uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
-endCharacter14"
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
 endLine6"
-isValfalse"
-displayNameGBTraitA"
-startCharacter6"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine6"
 isVarfalse"A
-symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitA#"
+symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitA#"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNameGBTraitA"
+kindTRAIT"
+	startLine6"
+isValfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
 
-isAbstractfalse"
-kindTRAIT"
-accessPublicAccess()"
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter6"
+isFinalfalse"
 LOC1*GBTraitA2
 scala/AnyRef#EXTEND2—
 7com/virtuslab/graphbuddy_playground/reference/GBTraitB#EXTENDT
@@ -29,70 +29,70 @@ Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala( 
 :com/virtuslab/graphbuddy_playground/reference/GBTraitA#[A]TYPE_PARAMETERT
 Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala (Š
 7com/virtuslab/graphbuddy_playground/reference/GBTraitB#TRAITT
-Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
-
-isImplicitfalse"Q
-uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
-endCharacter14"
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
 endLine4"
-isValfalse"
-displayNameGBTraitB"
-startCharacter6"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine4"
 isVarfalse"A
-symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitB#"
+symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitB#"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNameGBTraitB"
+kindTRAIT"
+	startLine4"
+isValfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
 
-isAbstractfalse"
-kindTRAIT"
-accessPublicAccess()"
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter6"
+isFinalfalse"
 LOC1*GBTraitB2
-scala/AnyRef#EXTENDR
-Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scalaFILE©
+scala/AnyRef#EXTENDž
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scalaFILE*Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala©
 :com/virtuslab/graphbuddy_playground/reference/GBTraitA#[A]TYPE_PARAMETERT
-Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
-
-isImplicitfalse"Q
-uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
-endCharacter16"
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
 endLine6"
-isValfalse"
-accessEmpty"
-displayNameA"
-startCharacter15"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine6"
 isVarfalse"D
-symbol:com/virtuslab/graphbuddy_playground/reference/GBTraitA#[A]"
+symbol:com/virtuslab/graphbuddy_playground/reference/GBTraitA#[A]"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessEmpty"
+displayNameA"
+kindTYPE_PARAMETER"
+	startLine6"
+isValfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
 
-isAbstractfalse"
-kindTYPE_PARAMETER*A2
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter16"
+startCharacter15"
+isFinalfalse*A2
 
 scala/Any#TYPE_PARAMETER2 
 scala/Nothing#TYPE_PARAMETERŠ
 7com/virtuslab/graphbuddy_playground/reference/GBTraitC#TRAITT
-Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
-
-isImplicitfalse"Q
-uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
-endCharacter14"
+Jsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala ("
 endLine2"
-isValfalse"
-displayNameGBTraitC"
-startCharacter6"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine2"
 isVarfalse"A
-symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitC#"
+symbol7com/virtuslab/graphbuddy_playground/reference/GBTraitC#"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNameGBTraitC"
+kindTRAIT"
+	startLine2"
+isValfalse"Q
+uriJsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBTrait.scala"
 
-isAbstractfalse"
-kindTRAIT"
-accessPublicAccess()"
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter6"
+isFinalfalse"
 LOC1*GBTraitC2
 scala/AnyRef#EXTEND

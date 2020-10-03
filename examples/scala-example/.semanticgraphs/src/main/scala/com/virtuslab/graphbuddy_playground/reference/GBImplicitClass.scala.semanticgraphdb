@@ -1,253 +1,199 @@
 
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala‘
-Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().METHOD\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala
- 
-(
-"
-
-isImplicittrue"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter10"
-endLine10"
-isValfalse"
-accessPublicAccess()"
-displayNameGBImplicitClass"
-startCharacter2"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine10"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala°
+Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().METHOD"
+endLine0"
 isVarfalse"^
-symbolTcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass()."
+symbolTcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass()."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNameGBImplicitClass"
+kindMETHOD"
+	startLine0"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kindMETHOD*GBImplicitClass2j
+isAbstractfalse"
+isLocalfalse"
+
+isImplicittrue"
+endCharacter0"
+startCharacter0"
+isFinalfalse*GBImplicitClass2j
 ]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().(gbClass)	PARAMETER2a
 Rcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#RETURN_TYPEõ
 hcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod().METHOD\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter27"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
 endLine4"
-isValfalse""
-displayNameimplicitClassMethod"
-startCharacter8"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine4"
 isVarfalse"r
-symbolhcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod()."
+symbolhcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod()."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()""
+displayNameimplicitClassMethod"
+kindMETHOD"
+	startLine4"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kindMETHOD"
-accessPublicAccess()"
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter27"
+startCharacter8"
+isFinalfalse"
 LOC1*implicitClassMethod2x
 scala/Unit#RETURN_TYPE\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (#Z
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scalaFILE³
-fcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().(gbClass)	PARAMETER"
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter0"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (#®
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scalaFILE*Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala³
+fcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().(gbClass)	PARAMETER"
 endLine0"
-isValfalse"
-accessEmpty"
-displayNamegbClass"
-startCharacter0"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine0"
 isVarfalse"p
-symbolfcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().(gbClass)"
-
-isAbstractfalse"
-kind	PARAMETER*gbClass2>
-6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPE¡
-]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().(gbClass)	PARAMETER"
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter0"
-endLine0"
-isValfalse"
+symbolfcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().(gbClass)"8
+package-com.virtuslab.graphbuddy_playground.reference"
 accessEmpty"
-displayNamegbClass"
-startCharacter0"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
+displayNamegbClass"
+kind	PARAMETER"
 	startLine0"
-isVarfalse"g
-symbol]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().(gbClass)"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kind	PARAMETER*gbClass2>
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter0"
+startCharacter0"
+isFinalfalse*gbClass2>
+6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPEß
+Zcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass.VALUE\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! (("
+endLine3"
+isVarfalse"d
+symbolZcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPrivateThisAccess()"
+displayNamegbClass"
+kindVALUE"
+	startLine3"
+isValtrue"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter40"
+startCharacter33"
+isFinalfalse*gbClass2œ
+6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPE\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala* (1¡
+]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().(gbClass)	PARAMETER"
+endLine0"
+isVarfalse"g
+symbol]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().(gbClass)"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessEmpty"
+displayNamegbClass"
+kind	PARAMETER"
+	startLine0"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter0"
+startCharacter0"
+isFinalfalse*gbClass2>
 6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPEÚ
 Jcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass.VALUE\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter13"
-endLine6"
-isValtrue"
-accessPublicAccess()"
-displayNamegbClass"
-startCharacter6"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine6"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
+endLine6"
 isVarfalse"T
-symbolJcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass."
+symbolJcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNamegbClass"
+kindVALUE"
+	startLine6"
+isValtrue"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kindVALUE*gbClass2>
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter13"
+startCharacter6"
+isFinalfalse*gbClass2>
 6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPE‰
 ]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().CONSTRUCTOR\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala  ( "
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter32"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala  ( "
 endLine3"
-isValfalse"
-accessPublicAccess()"
-displayName<init>"
-startCharacter32"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine3"
 isVarfalse"g
-symbol]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`()."
+symbol]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`()."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayName<init>"
+kindCONSTRUCTOR"
+	startLine3"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kindCONSTRUCTOR*<init>2s
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter32"
+startCharacter32"
+isFinalfalse*<init>2s
 fcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().(gbClass)	PARAMETER2Å
 Zcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass.	PARAMETER\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! ((Þ
-Kcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2.VALUE\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter14"
-endLine7"
-isValtrue"
-accessPublicAccess()"
-displayNamegbClass2"
-startCharacter6"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine7"
-isVarfalse"U
-symbolKcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2."
-
-isAbstractfalse"
-kindVALUE*gbClass22>
-6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPEÍ
-
-Rcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#CLASS\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ( "
-
-isImplicittrue"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter32"
-endLine3"
-isValfalse"
-displayNameGBImplicitClass"
-startCharacter17"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine3"
-isVarfalse"\
-symbolRcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#"
-
-isAbstractfalse"
-kindCLASS"
-accessPublicAccess()"
-LOC3*GBImplicitClass2Ç
-Zcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass.DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! ((2Ê
-]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala  ( 2Õ
-hcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod().DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2
-scala/AnyRef#EXTENDß
-Zcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass.VALUE\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! (("
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter40"
-endLine3"
-isValtrue"
-accessPrivateThisAccess()"
-displayNamegbClass"
-startCharacter33"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinalfalse"
-	startLine3"
-isVarfalse"d
-symbolZcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass."
-
-isAbstractfalse"
-kindVALUE*gbClass2œ
-6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPE\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala* (1¨
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! ((ÿ
 Bcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.OBJECT\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
-
-isImplicitfalse"Y
-uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
-endCharacter26"
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
 endLine2"
-isValfalse""
-displayNameGBImplicitClassTest"
-startCharacter7"
-isLocalfalse"8
-package-com.virtuslab.graphbuddy_playground.reference"
-isFinaltrue"
-	startLine2"
 isVarfalse"L
-symbolBcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest."
+symbolBcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()""
+displayNameGBImplicitClassTest"
+kindOBJECT"
+	startLine2"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
 
-isAbstractfalse"
-kindOBJECT"
-accessPublicAccess()"	
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter26"
+startCharacter7"
+isFinaltrue"	
 LOC10*GBImplicitClassTest2¿
 Rcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ( 2Á
-Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala
- 
-(
-2
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ( 2c
+Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().DECLARATION2
 scala/AnyRef#EXTEND2·
 Jcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass.DECLARATION\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2¸
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2œ
+6com/virtuslab/graphbuddy_playground/reference/GBClass#CALL\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2§
+Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CALL\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2¸
 Kcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2.DECLARATION\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2œ
 6com/virtuslab/graphbuddy_playground/reference/GBClass#CALL\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2§
 Acom/virtuslab/graphbuddy_playground/reference/GBClass#`<init>`().CALL\
-Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2º
-Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().CALL\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2°
+Jcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass.CALL\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala	 	(	2Î
 hcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod().CALL\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala	
- 	(2º
-Tcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass().CALL\
+ 	(2±
+Kcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2.CALL\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala
  
 (
@@ -255,4 +201,54 @@ Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.sc
 hcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod().CALL\
 Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala
  
-(
+(Þ
+Kcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2.VALUE\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ("
+endLine7"
+isVarfalse"U
+symbolKcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.gbClass2."8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNamegbClass2"
+kindVALUE"
+	startLine7"
+isValtrue"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter6"
+isFinalfalse*gbClass22>
+6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPEÍ
+
+Rcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#CLASS\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala ( "
+endLine3"
+isVarfalse"\
+symbolRcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#"8
+package-com.virtuslab.graphbuddy_playground.reference"
+accessPublicAccess()"
+displayNameGBImplicitClass"
+kindCLASS"
+	startLine3"
+isValfalse"Y
+uriRsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicittrue"
+endCharacter32"
+startCharacter17"
+isFinalfalse"
+LOC3*GBImplicitClass2Ç
+Zcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#gbClass.DECLARATION\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala! ((2Ê
+]com/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#`<init>`().DECLARATION\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala  ( 2Õ
+hcom/virtuslab/graphbuddy_playground/reference/GBImplicitClassTest.GBImplicitClass#implicitClassMethod().DECLARATION\
+Rsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBImplicitClass.scala (2
+scala/AnyRef#EXTEND
