@@ -91,6 +91,15 @@ Please remember to recompile the project with a new scalac plugin. In sbt:
 sbt clean test:compile
 ```
 
+Graph Buddy currently supports following scala versions:
+
+- 2.13.3
+- 2.13.2
+- 2.13.1
+- 2.12.12
+- 2.12.11
+- 2.11.12
+
 ### TypeScript configuration (experimental support)
 
 Typescript data will be generated based on the project configuration defined in `tsconfig.json`:
