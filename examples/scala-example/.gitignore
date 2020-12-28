@@ -8,3 +8,5 @@ target
 
 neo4j_tmp/
 project/target
+metals.sbt
+

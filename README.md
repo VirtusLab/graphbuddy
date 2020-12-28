@@ -74,14 +74,14 @@ For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt`
 
 ```scala
 resolvers += Resolver.bintrayIvyRepo("virtuslab", "graphbuddy")
-addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.8")
+addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.9")
 ```
 
 or add scalac compiler plugin directly:
 
 ```scala
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.8" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.9" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
@@ -93,11 +93,15 @@ sbt clean test:compile
 
 Graph Buddy currently supports following scala versions:
 
+- 2.13.4
 - 2.13.3
 - 2.13.2
 - 2.13.1
 - 2.12.12
 - 2.12.11
+- 2.12.10
+- 2.12.9
+- 2.12.8
 - 2.11.12
 
 ### TypeScript configuration (experimental support)
@@ -129,13 +133,13 @@ You can perform visual operations, both by clicking on your code or on the graph
 
 ### IntelliJ
 
-Look for a 'GraphBuddy' tab in the bottom right corner and press it.
+Look for a 'Graph Buddy' tab in the bottom right corner and press it.
 
 ![Graph Buddy User flow](assets/gifs/extension-intellij.gif)
 
 ### VSCode
 
-Click the `GraphBuddy` icon in the activity bar (left), then press the `Open Graph Buddy window` button.
+Click the `Graph Buddy` icon in the activity bar (left), then press the `Open Graph Buddy window` button.
 It will open the Graph Buddy board; just wait for the reindexing process to finish and start browsing!
 
 ![Graph Buddy User flow](assets/gifs/extension-vscode.gif)
@@ -367,10 +371,10 @@ SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%"
 - [x]  Basic Typescript integration
 - [x]  Getting feedback and implementing most requested features
 - [x]  Introducing JCEF protocol for IntelliJ plugin and fixing several webview issues.
+- [x]  Further graph browsing improvements and optimizations
 
 ## Planned
 
-- [ ]  Further graph browsing improvements and optimizations
 - [ ]  More plug and play compilations process (eliminating the need for project build definition changes)
 - [ ]  Integrating the project with Context Buddy
 - [ ]  Improving TypeScript support
