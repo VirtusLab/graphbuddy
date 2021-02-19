@@ -1,7 +1,7 @@
 
 Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala¤
 6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g.VALUER
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (	"
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala ("
 endLine3"
 isVarfalse"@
 symbol6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g."3
@@ -17,8 +17,8 @@ isAbstractfalse"
 isLocalfalse"
 
 isImplicitfalse"
-endCharacter9"
-startCharacter8"
+endCharacter7"
+startCharacter6"
 isFinalfalse*g2
 org/jgrapht/Graph#TYPE2
 scala/Predef.String#TYPE2
@@ -49,13 +49,14 @@ isImplicitfalse"
 GraphUsage2
 scala/AnyRef#EXTEND2™
 6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g.DECLARATIONR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (	2‹
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2‹
 /com/virtuslab/graphbuddy_playground/demo/Graph.CALLR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2˜
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala
+ (2˜
 <com/virtuslab/graphbuddy_playground/demo/Graph.emptyGraph().CALLR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2’
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2’
 6com/virtuslab/graphbuddy_playground/demo/GraphUsage.g.CALLR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2z
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (2z
 org/jgrapht/Graph#addVertex().CALLR
-Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (š
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala (š
 Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scalaFILE*Hsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/GraphUsage.scala

@@ -10,4 +10,6 @@ TRAVERSE out('CALL') FROM
 MAXDEPTH 3
 
 
+SELECT FROM Node WHERE id = "com/virtuslab/graphbuddy_playground/demo/GraphUsage."
 
+SELECT expand(out()) FROM Node WHERE id = "com/virtuslab/semanticgraphs/graphdb/ExternalApiConverter#toNode()."

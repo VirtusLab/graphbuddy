@@ -1,15 +1,37 @@
 
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scalaµ
-<com/virtuslab/graphbuddy_playground/demo/AFactory.createA().METHODL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
-endLine4"
-isVarfalse"F
-symbol<com/virtuslab/graphbuddy_playground/demo/AFactory.createA()."3
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scalaÊ
+8com/virtuslab/graphbuddy_playground/demo/B#methodB().(a)	PARAMETERL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+endLine7"
+isVarfalse"B
+symbol8com/virtuslab/graphbuddy_playground/demo/B#methodB().(a)"3
+package(com.virtuslab.graphbuddy_playground.demo"
+accessEmpty"
+displayNamea"
+kind	PARAMETER"
+	startLine7"
+isValfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter15"
+startCharacter14"
+isFinalfalse*a2
++com/virtuslab/graphbuddy_playground/demo/A#TYPEL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (Ë
+5com/virtuslab/graphbuddy_playground/demo/A#methodA().METHODL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+endLine3"
+isVarfalse"?
+symbol5com/virtuslab/graphbuddy_playground/demo/A#methodA()."3
 package(com.virtuslab.graphbuddy_playground.demo"
 accessPublicAccess()"
-displayNamecreateA"
+displayNamemethodA"
 kindMETHOD"
-	startLine4"
+	startLine3"
 isValfalse"I
 uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
 
@@ -20,12 +42,40 @@ isImplicitfalse"
 endCharacter13"
 startCharacter6"
 isFinalfalse"
-LOC3*createA2:
-+com/virtuslab/graphbuddy_playground/demo/A#RETURN_TYPE2
-+com/virtuslab/graphbuddy_playground/demo/A#CALLL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (	2Œ
-6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().CALLL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala	 (	ä
+LOC1*methodA2q
+scala/Predef.String#RETURN_TYPEL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (ï	
+5com/virtuslab/graphbuddy_playground/demo/B#methodB().METHODL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+endLine7"
+isVarfalse"?
+symbol5com/virtuslab/graphbuddy_playground/demo/B#methodB()."3
+package(com.virtuslab.graphbuddy_playground.demo"
+accessPublicAccess()"
+displayNamemethodB"
+kindMETHOD"
+	startLine7"
+isValfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter13"
+startCharacter6"
+isFinalfalse"
+LOC1*methodB2“
+8com/virtuslab/graphbuddy_playground/demo/B#methodB().(a)	PARAMETERL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2q
+scala/Predef.String#RETURN_TYPEL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2m
+java/lang/String#`+`().CALLL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala( ()2Ž
+8com/virtuslab/graphbuddy_playground/demo/B#methodB().(a)CALLL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala* (+2‹
+5com/virtuslab/graphbuddy_playground/demo/A#methodA().CALLL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala, (3ù
 +com/virtuslab/graphbuddy_playground/demo/A#CLASSL
 Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
 endLine2"
@@ -46,34 +96,58 @@ isImplicitfalse"
 endCharacter7"
 startCharacter6"
 isFinalfalse"
-LOC1*A2“
+LOC3*A2“
 6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().DECLARATIONL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
-scala/AnyRef#EXTENDˆ
-2com/virtuslab/graphbuddy_playground/demo/AFactory.OBJECTL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
-endLine3"
-isVarfalse"<
-symbol2com/virtuslab/graphbuddy_playground/demo/AFactory."3
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2’
+5com/virtuslab/graphbuddy_playground/demo/A#methodA().DECLARATIONL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
+scala/AnyRef#EXTENDù
++com/virtuslab/graphbuddy_playground/demo/B#CLASSL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+endLine6"
+isVarfalse"5
+symbol+com/virtuslab/graphbuddy_playground/demo/B#"3
 package(com.virtuslab.graphbuddy_playground.demo"
-accessPublicAccess()"
-displayNameAFactory"
-kindOBJECT"
-	startLine3"
+accessPublicAccess()"
+displayNameB"
+kindCLASS"
+	startLine6"
 isValfalse"I
 uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
 
 isAbstractfalse"
 isLocalfalse"
 
-isImplicitfalse"
-endCharacter15"
-startCharacter7"
-isFinaltrue"
-LOC5*AFactory2™
-<com/virtuslab/graphbuddy_playground/demo/AFactory.createA().DECLARATIONL
-Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
+isImplicitfalse"
+endCharacter7"
+startCharacter6"
+isFinalfalse"
+LOC3*B2“
+6com/virtuslab/graphbuddy_playground/demo/B#`<init>`().DECLARATIONL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2’
+5com/virtuslab/graphbuddy_playground/demo/B#methodB().DECLARATIONL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala (2
 scala/AnyRef#EXTEND×
+6com/virtuslab/graphbuddy_playground/demo/B#`<init>`().CONSTRUCTORL
+Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
+endLine6"
+isVarfalse"@
+symbol6com/virtuslab/graphbuddy_playground/demo/B#`<init>`()."3
+package(com.virtuslab.graphbuddy_playground.demo"
+accessPublicAccess()"
+displayName<init>"
+kindCONSTRUCTOR"
+	startLine6"
+isValfalse"I
+uriBsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter7"
+startCharacter7"
+isFinalfalse*<init>×
 6com/virtuslab/graphbuddy_playground/demo/A#`<init>`().CONSTRUCTORL
 Bsrc/main/scala/com/virtuslab/graphbuddy_playground/demo/Demo.scala ("
 endLine2"
