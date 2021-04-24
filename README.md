@@ -74,14 +74,14 @@ For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt`
 
 ```scala
 resolvers += Resolver.bintrayIvyRepo("virtuslab", "graphbuddy")
-addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.9")
+addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.11")
 ```
 
 or add scalac compiler plugin directly:
 
 ```scala
 resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.9" cross CrossVersion.full)
+addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.11" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
@@ -93,10 +93,13 @@ sbt clean test:compile
 
 Graph Buddy currently supports following scala versions:
 
+- 2.13.5
 - 2.13.4
 - 2.13.3
 - 2.13.2
 - 2.13.1
+- 2.13.0
+- 2.12.13
 - 2.12.12
 - 2.12.11
 - 2.12.10
