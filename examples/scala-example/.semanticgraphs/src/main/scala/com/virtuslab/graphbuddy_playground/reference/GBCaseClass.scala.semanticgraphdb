@@ -1,5 +1,5 @@
 
-Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scalaÕ
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scalaö
 Ecom/virtuslab/graphbuddy_playground/reference/GBCaseClass#hashCode().METHOD"
 endLine0"
 isVarfalse"O
@@ -20,7 +20,9 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*hashCode2
 
-scala/Int#RETURN_TYPE”
+scala/Int#RETURN_TYPE2(
+java/lang/Object#hashCode().OVERRIDE2!
+scala/Any#hashCode().OVERRIDE”
 Jcom/virtuslab/graphbuddy_playground/reference/GBCaseClass.apply().(string)	PARAMETER"
 endLine0"
 isVarfalse"T
@@ -40,7 +42,7 @@ isImplicitfalse"
 endCharacter0"
 startCharacter0"
 isFinalfalse*string2
-scala/Predef.String#TYPE¢
+scala/Predef.String#TYPE»
 Bcom/virtuslab/graphbuddy_playground/reference/GBCaseClass.apply().METHOD"
 endLine0"
 isVarfalse"L
@@ -62,7 +64,8 @@ isImplicitfalse"
 isFinalfalse*apply2W
 Jcom/virtuslab/graphbuddy_playground/reference/GBCaseClass.apply().(string)	PARAMETER2V
 Icom/virtuslab/graphbuddy_playground/reference/GBCaseClass.apply().(class)	PARAMETER2I
-:com/virtuslab/graphbuddy_playground/reference/GBCaseClass#RETURN_TYPEñ
+:com/virtuslab/graphbuddy_playground/reference/GBCaseClass#RETURN_TYPE2$
+scala/Function2#apply().OVERRIDEñ
 @com/virtuslab/graphbuddy_playground/reference/GBCaseClass#class.VALUEX
 Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala' (."
 endLine2"
@@ -84,7 +87,7 @@ isImplicitfalse"
 startCharacter39"
 isFinalfalse*class2ò
 6com/virtuslab/graphbuddy_playground/reference/GBClass#TYPEX
-Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala0 (7‘
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala0 (7°
 Ecom/virtuslab/graphbuddy_playground/reference/GBCaseClass#toString().METHOD"
 endLine0"
 isVarfalse"O
@@ -104,7 +107,9 @@ isImplicitfalse"
 endCharacter0"
 startCharacter0"
 isFinalfalse*toString2 
-java/lang/String#RETURN_TYPEú
+java/lang/String#RETURN_TYPE2(
+java/lang/Object#toString().OVERRIDE2!
+scala/Any#toString().OVERRIDEú
 Acom/virtuslab/graphbuddy_playground/reference/GBCaseClass#copy().METHOD"
 endLine0"
 isVarfalse"K
@@ -172,7 +177,7 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*x$12
 
-scala/Any#TYPEî
+scala/Any#TYPE¬
 Lcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productIterator().METHOD"
 endLine0"
 isVarfalse"V
@@ -194,7 +199,8 @@ isImplicitfalse"
 isFinalfalse*productIterator2)
 scala/collection/Iterator#RETURN_TYPE2
 
-scala/Any#RETURN_TYPEﬂ
+scala/Any#RETURN_TYPE2,
+ scala/Product#productIterator().OVERRIDEê
 Ocom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productElementName().METHOD"
 endLine0"
 isVarfalse"Y
@@ -215,7 +221,8 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*productElementName2a
 Tcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productElementName().(x$1)	PARAMETER2 
-java/lang/String#RETURN_TYPE√
+java/lang/String#RETURN_TYPE2/
+#scala/Product#productElementName().OVERRIDE√
 Jcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#canEqual().(x$1)	PARAMETER"
 endLine0"
 isVarfalse"T
@@ -236,7 +243,7 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*x$12
 
-scala/Any#TYPE™
+scala/Any#TYPE–
 Ecom/virtuslab/graphbuddy_playground/reference/GBCaseClass#canEqual().METHOD"
 endLine0"
 isVarfalse"O
@@ -257,7 +264,8 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*canEqual2W
 Jcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#canEqual().(x$1)	PARAMETER2
-scala/Boolean#RETURN_TYPE≠
+scala/Boolean#RETURN_TYPE2$
+scala/Equals#canEqual().OVERRIDE≠
 Kcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#copy$default$1().METHOD"
 endLine0"
 isVarfalse"U
@@ -278,7 +286,7 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*copy$default$12<
 -scala/annotation/unchecked/uncheckedVariance#RETURN_TYPE2#
-scala/Predef.String#RETURN_TYPE†
+scala/Predef.String#RETURN_TYPEç
 Ccom/virtuslab/graphbuddy_playground/reference/GBCaseClass#equals().METHOD"
 endLine0"
 isVarfalse"M
@@ -299,7 +307,10 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*equals2U
 Hcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#equals().(x$1)	PARAMETER2
-scala/Boolean#RETURN_TYPEœ
+scala/Boolean#RETURN_TYPE2"
+scala/Equals#equals().OVERRIDE2&
+java/lang/Object#equals().OVERRIDE2
+scala/Any#equals().OVERRIDEœ
 Pcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productElement().(x$1)	PARAMETER"
 endLine0"
 isVarfalse"Z
@@ -511,7 +522,7 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*x$12
 
-scala/Int#TYPE”
+scala/Int#TYPE…
 Ecom/virtuslab/graphbuddy_playground/reference/GBCaseClass.toString().METHOD"
 endLine0"
 isVarfalse"O
@@ -531,7 +542,10 @@ isImplicitfalse"
 endCharacter0"
 startCharacter0"
 isFinaltrue*toString2 
-java/lang/String#RETURN_TYPEÂ
+java/lang/String#RETURN_TYPE2'
+scala/Function2#toString().OVERRIDE2(
+java/lang/Object#toString().OVERRIDE2!
+scala/Any#toString().OVERRIDEÂ
 Icom/virtuslab/graphbuddy_playground/reference/GBCaseClass.writeReplace().METHOD"
 endLine0"
 isVarfalse"S
@@ -638,7 +652,7 @@ Lcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#`<init>`().(class)	P
 Acom/virtuslab/graphbuddy_playground/reference/GBCaseClass#string.	PARAMETERX
 Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala (2ß
 @com/virtuslab/graphbuddy_playground/reference/GBCaseClass#class.	PARAMETERX
-Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala' (.›
+Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala' (.à
 Icom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productArity().METHOD"
 endLine0"
 isVarfalse"S
@@ -659,7 +673,8 @@ isImplicitfalse"
 startCharacter0"
 isFinalfalse*productArity2
 
-scala/Int#RETURN_TYPEË
+scala/Int#RETURN_TYPE2)
+scala/Product#productArity().OVERRIDEî
 Jcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productPrefix().METHOD"
 endLine0"
 isVarfalse"T
@@ -679,7 +694,8 @@ isImplicitfalse"
 endCharacter0"
 startCharacter0"
 isFinalfalse*productPrefix2 
-java/lang/String#RETURN_TYPE∆	
+java/lang/String#RETURN_TYPE2*
+scala/Product#productPrefix().OVERRIDE∆	
 :com/virtuslab/graphbuddy_playground/reference/GBCaseClass.OBJECTV
 Nsrc/main/scala/com/virtuslab/graphbuddy_playground/reference/GBCaseClass.scala ("
 endLine0"
@@ -708,7 +724,7 @@ Icom/virtuslab/graphbuddy_playground/reference/GBCaseClass.writeReplace().DECL
 scala/Predef.String#EXTEND2@
 6com/virtuslab/graphbuddy_playground/reference/GBClass#EXTEND2D
 :com/virtuslab/graphbuddy_playground/reference/GBCaseClass#EXTEND2
-java/io/Serializable#EXTENDƒ
+java/io/Serializable#EXTENDÒ
 Kcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productElement().METHOD"
 endLine0"
 isVarfalse"U
@@ -730,4 +746,5 @@ isImplicitfalse"
 isFinalfalse*productElement2]
 Pcom/virtuslab/graphbuddy_playground/reference/GBCaseClass#productElement().(x$1)	PARAMETER2
 
-scala/Any#RETURN_TYPE
+scala/Any#RETURN_TYPE2+
+scala/Product#productElement().OVERRIDE
