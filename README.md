@@ -365,7 +365,6 @@ SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%"
 - [x]  Features improving graph usability
 - [x]  Improving semantic graph correctness
 - [x]  Embedding the solution to Intellij and VSCode
-- [x]  Automatically refreshing the graph on code change
 - [x]  Introducing IDE plugin configuration
 - [x]  Plug-and-play VSCode server
 - [x]  Plug-and-play Intellij server
@@ -373,9 +372,12 @@ SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%"
 - [x]  Getting feedback and implementing most requested features
 - [x]  Introducing JCEF protocol for IntelliJ plugin and fixing several webview issues.
 - [x]  Further graph browsing improvements and optimizations
+- [x]  Possibility to refresh particular file with newest semantic info 
 
 ## Planned
 
+- [ ]. Graphically browsing overrides
+- [ ]  Automatically refreshing the graph on code change
 - [ ]  More plug and play compilations process (eliminating the need for project build definition changes)
 - [ ]  Integrating the project with Context Buddy
 - [ ]  Improving TypeScript support
