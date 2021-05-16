@@ -2,7 +2,7 @@ package com.virtuslab.graphbuddy_playground.vissoft
 
 object CarMain {
 
-  val carRepository = new CarRepositoryImpl()
+  val carRepository = if(1 == 2) new CarRepositoryImpl() else new CarRepositoryImpl2()
   val carService = new CarService(carRepository)
   val http = new CarHttp(carService)
   def simulate(): Unit = {

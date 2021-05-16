@@ -73,15 +73,13 @@ The only requirement is the scalac compiler plugin.
 For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt` with the content:
 
 ```scala
-resolvers += Resolver.bintrayIvyRepo("virtuslab", "graphbuddy")
-addSbtPlugin("com.virtuslab" % "semantic-graphs-sbt-plugin" % "0.2.11")
+addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.12")
 ```
 
 or add scalac compiler plugin directly:
 
 ```scala
-resolvers += Resolver.bintrayRepo("virtuslab", "graphbuddy")
-addCompilerPlugin("com.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.11" cross CrossVersion.full)
+addCompilerPlugin("org.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.12" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 

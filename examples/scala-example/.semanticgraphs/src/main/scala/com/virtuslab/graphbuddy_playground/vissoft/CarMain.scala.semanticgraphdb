@@ -1,0 +1,159 @@
+
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scalaµ
+?com/virtuslab/graphbuddy_playground/vissoft/CarMain.carService.VALUER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala ("
+endLine5"
+isVarfalse"I
+symbol?com/virtuslab/graphbuddy_playground/vissoft/CarMain.carService."6
+package+com.virtuslab.graphbuddy_playground.vissoft"
+accessPublicAccess()"
+displayName
+carService"
+kindVALUE"
+	startLine5"
+isValtrue"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter16"
+startCharacter6"
+isFinalfalse*
+carService2?
+7com/virtuslab/graphbuddy_playground/vissoft/CarService#TYPE≥
+4com/virtuslab/graphbuddy_playground/vissoft/CarMain.OBJECTR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala ("
+endLine2"
+isVarfalse">
+symbol4com/virtuslab/graphbuddy_playground/vissoft/CarMain."6
+package+com.virtuslab.graphbuddy_playground.vissoft"
+accessPublicAccess()"
+displayNameCarMain"
+kindOBJECT"
+	startLine2"
+isValfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter7"
+isFinaltrue"	
+LOC12*CarMain2¢
+?com/virtuslab/graphbuddy_playground/vissoft/CarMain.simulate().DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2
+scala/AnyRef#EXTEND2•
+Bcom/virtuslab/graphbuddy_playground/vissoft/CarMain.carRepository.DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2o
+scala/Int#`==`(+3).CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2ö
+>com/virtuslab/graphbuddy_playground/vissoft/CarRepositoryImpl#CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala% (62•
+Icom/virtuslab/graphbuddy_playground/vissoft/CarRepositoryImpl#`<init>`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala6 (62õ
+?com/virtuslab/graphbuddy_playground/vissoft/CarRepositoryImpl2#CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scalaB (T2¶
+Jcom/virtuslab/graphbuddy_playground/vissoft/CarRepositoryImpl2#`<init>`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scalaT (T2¢
+?com/virtuslab/graphbuddy_playground/vissoft/CarMain.carService.DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2ì
+7com/virtuslab/graphbuddy_playground/vissoft/CarService#CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (!2û
+Bcom/virtuslab/graphbuddy_playground/vissoft/CarService#`<init>`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala! (!2û
+Bcom/virtuslab/graphbuddy_playground/vissoft/CarMain.carRepository.CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala" (/2ú
+9com/virtuslab/graphbuddy_playground/vissoft/CarMain.http.DECLARATIONR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (
+2ê
+4com/virtuslab/graphbuddy_playground/vissoft/CarHttp#CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2õ
+?com/virtuslab/graphbuddy_playground/vissoft/CarHttp#`<init>`().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2õ
+?com/virtuslab/graphbuddy_playground/vissoft/CarMain.carService.CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (#ö
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scalaFILE*Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scalaö
+9com/virtuslab/graphbuddy_playground/vissoft/CarMain.http.VALUER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (
+"
+endLine6"
+isVarfalse"C
+symbol9com/virtuslab/graphbuddy_playground/vissoft/CarMain.http."6
+package+com.virtuslab.graphbuddy_playground.vissoft"
+accessPublicAccess()"
+displayNamehttp"
+kindVALUE"
+	startLine6"
+isValtrue"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter10"
+startCharacter6"
+isFinalfalse*http2<
+4com/virtuslab/graphbuddy_playground/vissoft/CarHttp#TYPEƒ
+Bcom/virtuslab/graphbuddy_playground/vissoft/CarMain.carRepository.VALUER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala ("
+endLine4"
+isVarfalse"L
+symbolBcom/virtuslab/graphbuddy_playground/vissoft/CarMain.carRepository."6
+package+com.virtuslab.graphbuddy_playground.vissoft"
+accessPublicAccess()"
+displayNamecarRepository"
+kindVALUE"
+	startLine4"
+isValtrue"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter19"
+startCharacter6"
+isFinalfalse*carRepository2B
+:com/virtuslab/graphbuddy_playground/vissoft/CarRepository#TYPE◊
+?com/virtuslab/graphbuddy_playground/vissoft/CarMain.simulate().METHODR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala ("
+endLine7"
+isVarfalse"I
+symbol?com/virtuslab/graphbuddy_playground/vissoft/CarMain.simulate()."6
+package+com.virtuslab.graphbuddy_playground.vissoft"
+accessPublicAccess()"
+displayNamesimulate"
+kindMETHOD"
+	startLine7"
+isValfalse"O
+uriHsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala"
+
+isAbstractfalse"
+isLocalfalse"
+
+isImplicitfalse"
+endCharacter14"
+startCharacter6"
+isFinalfalse"
+LOC5*simulate2n
+scala/Unit#RETURN_TYPER
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2ï
+9com/virtuslab/graphbuddy_playground/vissoft/CarMain.http.CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala (2ü
+Ccom/virtuslab/graphbuddy_playground/vissoft/CarHttp#startCarPost().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala	 (2u
+scala/Predef.println(+1).CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala	 	(2ï
+9com/virtuslab/graphbuddy_playground/vissoft/CarMain.http.CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala
+ 
+(2û
+Bcom/virtuslab/graphbuddy_playground/vissoft/CarHttp#stopCarPost().CALLR
+Hsrc/main/scala/com/virtuslab/graphbuddy_playground/vissoft/CarMain.scala
+	 
+(

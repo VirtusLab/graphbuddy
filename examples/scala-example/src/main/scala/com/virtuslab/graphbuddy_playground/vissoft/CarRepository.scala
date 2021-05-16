@@ -10,3 +10,6 @@ trait CarRepository {
 class CarRepositoryImpl extends CarRepository {
   def getCarByName(name: String): Car = Car(name)
 }
+class CarRepositoryImpl2 extends CarRepository {
+  def getCarByName(name: String): Car = Car(name)
+}
