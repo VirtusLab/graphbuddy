@@ -368,7 +368,7 @@ SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%"
 - [x]  Introducing JCEF protocol for IntelliJ plugin and fixing several webview issues.
 - [x]  Further graph browsing improvements and optimizations
 - [x]  Possibility to refresh particular file with newest semantic info 
-- [ ]  Graphically browsing overrides
+- [x]  Graphically browsing overrides
 
 ## Planned
 
