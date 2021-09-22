@@ -51,7 +51,6 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
 ⚠ Graph Buddy is an experimental project and currently only supports:
 
 - Scala language - via scalac compiler [plugin](#your-project-configuration) (70% completed)
-- TypeScript language - initial experimental support (20% completed)
 
 # Installing and configuring the extension
 
@@ -106,12 +105,6 @@ Graph Buddy currently supports following scala versions:
 - 2.12.9
 - 2.12.8
 - 2.11.12
-
-### TypeScript configuration (experimental support)
-
-Typescript data will be generated based on the project configuration defined in `tsconfig.json`:
-
-⚠ Currently, you can play with Typescript, but keep in mind that it is still under active development. There is a lot of work yet to be done to cover all currently unhandled cases. We recommend using a Graph Buddy [ts-example](https://github.com/VirtusLab/graphbuddy/tree/master/ts-example) demonstration repo as a playground.
 
 ## Installing a plugin
 
@@ -375,15 +368,16 @@ SELECT FROM E WHERE in IN (SELECT FROM Node WHERE id LIKE "%org\/your\/library%"
 - [x]  Introducing JCEF protocol for IntelliJ plugin and fixing several webview issues.
 - [x]  Further graph browsing improvements and optimizations
 - [x]  Possibility to refresh particular file with newest semantic info 
+- [ ]  Graphically browsing overrides
 
 ## Planned
 
-- [ ]. Graphically browsing overrides
+- [ ]  Scala 3 support (In progress)
+- [ ]  Java support (In progress)
+- [ ]  Fixing most wanted usability problems (In progress)
 - [ ]  Automatically refreshing the graph on code change
 - [ ]  More plug and play compilations process (eliminating the need for project build definition changes)
-- [ ]  Integrating the project with Context Buddy
-- [ ]  Improving TypeScript support
-- [ ]  Fixing remaining bugs in semantic-graphs scalac compiler plugin
+- [ ]  Rethinking TypeScript support
 
 ---
 
