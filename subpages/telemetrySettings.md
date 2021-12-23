@@ -1,6 +1,6 @@
 # Telemetry
 
-With your agreement, we can collect some anonymous information. If you change your mind, you can change telemetry settings following instructions below.
+With your agreement, we can collect some anonymous information. If you change your mind, you can change telemetry settings following instructions below. Our privacy policy you can find here: [link](privacyPolicy.md).
 
 ## IntelliJ
 
