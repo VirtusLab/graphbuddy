@@ -43,6 +43,7 @@ During compilation Graph Buddy extracts additional project metadata - Semantic C
 - [Roadmap](#roadmap)
   - [Released](#released)
   - [Planned](#planned)
+- [Telemetry](subpages/telemetrySettings.md)
 - [Contact us](#contact-us)
 
 ---
