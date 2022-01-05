@@ -74,7 +74,7 @@ The only requirement is the scalac compiler plugin.
 For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt` with the content:
 
 ```scala
-addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.13")
+addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.15")
 ```
 
 or add scalac compiler plugin directly:
