@@ -80,7 +80,7 @@ addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.13")
 or add scalac compiler plugin directly:
 
 ```scala
-addCompilerPlugin("org.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.13" cross CrossVersion.full)
+addCompilerPlugin("org.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.15" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
@@ -92,6 +92,7 @@ sbt clean test:compile
 
 Graph Buddy currently supports following scala versions:
 
+- 2.13.7
 - 2.13.6
 - 2.13.5
 - 2.13.4
