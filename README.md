@@ -310,7 +310,7 @@ If you have a Scala project, then after recompilation you should manually `reind
 
 ## Planned
 
-- [ ] Fixing remaining bugs in java support
+- [ ] Fixing remaining bugs in Java support
 
 ---
 
