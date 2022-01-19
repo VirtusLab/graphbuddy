@@ -289,7 +289,7 @@ If you have a Scala project, then after recompilation you should manually `reind
   </tr>
   <tr>
     <td>Close modal</td>
-    <td>By pressing 'esc' you close any modal currently active</td>
+    <td>By pressing 'esc' you close currently active modal</td>
   </tr>
 </table>
 
