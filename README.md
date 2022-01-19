@@ -52,7 +52,7 @@ structure in your codebase.
 
 # Supported languages
 
-Graph Buddy is an still under development project and currently only supports:
+Graph Buddy is still under development and currently only supports:
 
 - Java language - with dynamic file parsing. Java 11 is supported.
 - Scala language - via scalac compiler [plugin](#your-project-configuration)
