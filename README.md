@@ -285,7 +285,7 @@ If you have a Scala project, then after recompilation you should manually `reind
   </tr>
   <tr>
     <td>Redo action</td>
-    <td>By pressing 'ctrl+shift+z' you redo action (add/update/remove/re-position)</td>
+    <td>By pressing 'ctrl+shift+z' you redo the last undone action (add/update/remove/re-position)</td>
   </tr>
   <tr>
     <td>Close modal</td>
