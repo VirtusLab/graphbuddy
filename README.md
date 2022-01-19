@@ -283,15 +283,27 @@ _edge_. When browsing the code, Graph Buddy will update the graph board interact
 by right-clicking in a text editor, you can draw the graph for the whole file unit or for a
 particular definition.
 
-![Graph Buddy User flow](assets/gifs/extension-flow-1.gif)
+<img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
 
-You can perform several interactions on the Graph Buddy board to better understand the code
-structure. Choose between a range of features like: finding a path between nodes; changing pointing
-edges direction; filtering by node kind, and many more!
+You can add nodes to the graph by navigating to corresponding code snippets in an editor tab. Alternatively, you can draw the whole graph for a file or symbol using editor context actions Show Graph for File & Show Graph for Symbol.
 
-![Graph Buddy User flow](assets/gifs/extension-flow-2.gif)
-![Graph Buddy User flow](assets/gifs/extension-flow-3.gif)
-![Graph Buddy User flow](assets/gifs/extension-flow-4.gif)
+<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
+
+You can check where a given node is called using node context actions Called by & Call hierarchy. You can also find paths between nodes already added to the graph.
+
+<img src="assets/gifs/IntelliJ-2.gif" width="800" height="500"/>
+
+You can filter the graph to only view node & edge types you care about. You can also switch between different graph layouts to improve readability. Finally, you can search in the graph by node names, and appropriate parts of the graph will be highlighted.
+
+<img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
+
+You can save the current graph state as a snapshot in the graph file manager. You can find those snapshots under /.graphbuddy directory. You can load those snapshots later or share them with a teammate.
+
+<img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
+
+Graph files are generated automatically for Java projects. As you edit your code, the existing graph is dynamically updated. However, it is not impossible for the graph to be out of sync, in which case it may be worth it to regenerate your graph. To do so, select the action under Main Menu → Graph Buddy → Generate Java Graph.
+
+<img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
 ---
 
 # Roadmap
