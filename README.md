@@ -44,6 +44,8 @@ structure in your codebase.
 - [Roadmap](#roadmap)
   - [Released](#released)
   - [Planned](#planned)
+- [Telemetry](subpages/telemetrySettings.md)
+- [Privacy policy](subpages/privacyPolicy.md)
 - [Contact us](#contact-us)
 
 ---
