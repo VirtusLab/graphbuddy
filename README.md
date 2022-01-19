@@ -94,6 +94,7 @@ Graph Buddy currently supports following scala versions:
 - 2.13.2
 - 2.13.1
 - 2.13.0
+- 2.12.14
 - 2.12.13
 - 2.12.12
 - 2.12.11
