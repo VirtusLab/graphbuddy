@@ -54,14 +54,14 @@ structure in your codebase.
 
 Graph Buddy is still under development and currently only supports:
 
-- Java language - with dynamic file parsing. Java 11 is supported.
-- Scala language - via scalac compiler [plugin](#your-project-configuration)
+- Java - with dynamic file parsing. Versions up to Java 11 are supported (with some experimental support for versions up to Java 16).
+- Scala - via our scalac compiler [plugin](#your-project-configuration)
 
-## Configuration in Java projects
+## Configuration for Java projects
 
-Java support is out-of-the-box. You just need to install plugin and it after opening it, it will automatically parse your files. If you change something in the code, the plugin will update the graph automatically. However, some changes (like changing the branch) might not be propagated correctly. If you notice that plugin doesn't work correctly, please click `Generate Java graph` to make sure you're working on a complete graph.
+Java is supported out-of-the-box, no extra configuration is necessary. You just need to install our plugin and it will automatically generate graph files for the currently open project on startup. The initial graph generation may take a few minutes for larger projects. If you change something in the code, the plugin will update the graph automatically. However, some changes (like changing the branch, removing multiple files at once) might not be propagated correctly. If you notice that the plugin isn't working correctly (for example, if some nodes or edges aren't pointing to the right locations or aren't present at all), you can consider regenerating the graph files. To do so, please click the `Generate Java graph` action from the `Graph Buddy` menu. 
 
-## Configuration in Scala projects
+## Configuration for Scala projects
 
 Here, except from installing plugin in IDE, you need to configure your scala compiler. GraphBuddy has a plugin to it, which will generate graph files during compilation.
 
@@ -143,7 +143,7 @@ browsing!
 
 ### Indexing the graph
 
-In Intellij and VSCode the graph will be reindexed automatically during the project startup, if only `.semanticgraphs` folder is present.
+In Intellij and VSCode the graph will be reindexed automatically during the project startup if there are any graph files in the `.semanticgraphs` folder.
 
 To reindex graph manually:
 
@@ -152,7 +152,7 @@ To reindex graph manually:
 
 ## Graph Buddy features
 
-**NOTE: The base network mode for features is 2d, some features are not/less available on 3d
+**NOTE: The plugin is optimised for working in the default, 2D mode. Some features may not correctly (or even at all) in 3D mode.
 graph.**
 
 <img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
@@ -171,24 +171,24 @@ You can check where a given node is called using node context actions Called by 
 
 ### Filters, layouts, search
 
-You can filter elements of some type using menu on the top of window. Layouts can help you organize nodes on canvas in the way you like. And finally, using search, you can highlight elements on canvas which are matched to typed phrase like `get` or `class`.
+You can filter elements of a particular type using the menu on the top of the Graph Buddy panel. Layouts can help you organize nodes on the canvas. Finally, using search you can highlight elements matching the search phrase on the canvas. You can search by a part of the node name or by node type (i.e. `CLASS`)
 
 <img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
 
 ### Saving state
 
-If you have created graph, which you want to preserve on the future (f.e. to present it your colleague), you can do this by clicking on floppy disk icon on toolbar. There you can save snaphshot of your current work or load saved previously. You can find those snapshots in `.graphbuddy` folder.
+If you want to preserve the current graph state for later use (i.e. to present it to your colleague), you can do this by clicking on floppy disk icon on toolbar. There you can save a snaphshot of your current work or load a previously saved snapshot. You can find those snapshots in the `.graphbuddy` folder.
 
 <img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
 
-### Regenerating graph files and reindexing
+### Graph files regeneration and reindexing
 
-It varies a bit depending on language do you use. If you use Java, then after f.e. changing branch some files may be outdated. Currently, this situation is not detected by plugin, so you should click `Generate graph` in such situation.
-If you have a Scala project, then after recompilation you should manually `reindex graph`. It will load newly generated files.
+If you are working with a Java project, then under some circumstances (switching branches, appling a code patch, editing or removing multiple files at once) some graph files may become outdated and as a result, the plugin may not work as expected (nodes and edges may be missing from the graph or pointing to incorrect locations in the code). There currently is no automated detection for these cases. When in doubt, you should trigger the `Generate graph` action from the Main Menu to make sure you are working with up-to-date graph files.
+If you are working with a Scala project, assuming you have configured the compiler plugin correctly, you should manually trigger the `reindex graph` action from the Main Menu. This will load the newly generated graph files to the plugin.
 
 <img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
 
-### Detailed options
+### Advanced options
 #### Graph canvas
 
 <table>
@@ -252,7 +252,7 @@ If you have a Scala project, then after recompilation you should manually `reind
 <table>
   <tr>
     <td>Undo/Redo</td>
-    <td>Undo or redo action on graph</td>
+    <td>Undo or redo action on the graph</td>
   </tr>
   <tr>
     <td>Zoom</td>
@@ -264,7 +264,7 @@ If you have a Scala project, then after recompilation you should manually `reind
   </tr>
   <tr>
     <td>Freeze graph</td>
-    <td>By clicking the `freeze graph` button, you lock the graph, disallowing any updates to its data</td>
+    <td>By clicking the `freeze graph` button, you lock the graph, temporarily disallowing any updates to its data</td>
   </tr>
   <tr>
     <td>Clear graph</td>
