@@ -10,7 +10,7 @@ bits extracted from your codebase?
 
 ## How can Graph Buddy help you?
 
-Graph Buddy aims to speed up your process of reading and learning about source codes. The Graph
+Graph Buddy aims to speed up your process of reading and learning your source code. The Graph
 Buddy plugin provides a set of useful features and techniques that will help you easily browse
 through twisted code dependencies. At the same time, it gives you a better understanding of the code
 structure in your codebase.
