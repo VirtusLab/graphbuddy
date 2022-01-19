@@ -155,24 +155,38 @@ To reindex graph manually:
 **NOTE: The base network mode for features is 2d, some features are not/less available on 3d
 graph.**
 
+<img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
+
 ### Adding nodes to graph
 
 You can do this in multiple ways. The most intuitive is clicking on the code - then corresponding node should appear on plugin canvas.
 
 Second way is using options from context menu in editor or on canvas. In editor there are some options to generate whole graph for selected place in code.
 
+<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
+
+You can check where a given node is called using node context actions Called by & Call hierarchy. You can also find paths between nodes already added to the graph.
+
+<img src="assets/gifs/IntelliJ-2.gif" width="800" height="500"/>
+
 ### Filters, layouts, search
 
 You can filter elements of some type using menu on the top of window. Layouts can help you organize nodes on canvas in the way you like. And finally, using search, you can highlight elements on canvas which are matched to typed phrase like `get` or `class`.
+
+<img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
 
 ### Saving state
 
 If you have created graph, which you want to preserve on the future (f.e. to present it your colleague), you can do this by clicking on floppy disk icon on toolbar. There you can save snaphshot of your current work or load saved previously. You can find those snapshots in `.graphbuddy` folder.
 
+<img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
+
 ### Regenerating graph files and reindexing
 
 It varies a bit depending on language do you use. If you use Java, then after f.e. changing branch some files may be outdated. Currently, this situation is not detected by plugin, so you should click `Generate graph` in such situation.
 If you have a Scala project, then after recompilation you should manually `reindex graph`. It will load newly generated files.
+
+<img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
 
 ### Detailed options
 #### Graph canvas
@@ -279,34 +293,6 @@ If you have a Scala project, then after recompilation you should manually `reind
   </tr>
 </table>
 
-### Navigating through the project
-
-Each declaration or definition is represented as a _node_ and the connection between them as an
-_edge_. When browsing the code, Graph Buddy will update the graph board interactively. Additionally,
-by right-clicking in a text editor, you can draw the graph for the whole file unit or for a
-particular definition.
-
-<img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
-
-You can add nodes to the graph by navigating to corresponding code snippets in an editor tab. Alternatively, you can draw the whole graph for a file or symbol using editor context actions Show Graph for File & Show Graph for Symbol.
-
-<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
-
-You can check where a given node is called using node context actions Called by & Call hierarchy. You can also find paths between nodes already added to the graph.
-
-<img src="assets/gifs/IntelliJ-2.gif" width="800" height="500"/>
-
-You can filter the graph to only view node & edge types you care about. You can also switch between different graph layouts to improve readability. Finally, you can search in the graph by node names, and appropriate parts of the graph will be highlighted.
-
-<img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
-
-You can save the current graph state as a snapshot in the graph file manager. You can find those snapshots under /.graphbuddy directory. You can load those snapshots later or share them with a teammate.
-
-<img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
-
-Graph files are generated automatically for Java projects. As you edit your code, the existing graph is dynamically updated. However, it is not impossible for the graph to be out of sync, in which case it may be worth it to regenerate your graph. To do so, select the action under Main Menu → Graph Buddy → Generate Java Graph.
-
-<img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
 ---
 
 # Roadmap
