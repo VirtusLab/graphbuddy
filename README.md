@@ -5,8 +5,7 @@
 With today's IDEs, we are all forced to browse code written as text in flatly-structured files, with
 almost no information about the semantic dependencies between particular code units. What if we
 could take a different look and, instead of seeing just source code in text files, go through
-colorful graph nodes that instantly and clearly show you dependencies and other essential structural
-bits extracted from your codebase?
+colorful graph nodes that instantly and clearly show you structure of your code extracted from your codebase?
 
 ## How can Graph Buddy help you?
 
