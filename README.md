@@ -142,7 +142,7 @@ browsing!
 
 ### Indexing the graph
 
-In Intellij and VSCode the graph will be reindexed automatically during the project startup if there are any graph files in the `.semanticgraphs` folder.
+The graph will be reindexed automatically during the project startup if there are any graph files in the `.semanticgraphs` folder.
 
 To reindex graph manually:
 
@@ -151,8 +151,7 @@ To reindex graph manually:
 
 ## Graph Buddy features
 
-**NOTE: The plugin is optimised for working in the default, 2D mode. Some features may not correctly (or even at all) in 3D mode.
-graph.**
+**NOTE: The plugin is optimised for working in the default, 2D mode. Some features may not correctly (or even at all) in 3D mode.**
 
 <img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
 
@@ -170,7 +169,7 @@ You can check where a given node is called using node context actions Called by 
 
 ### Filters, layouts, search
 
-You can filter elements of a particular type using the menu on the top of the Graph Buddy panel. Layouts can help you organize nodes on the canvas. Finally, using search you can highlight elements matching the search phrase on the canvas. You can search by a part of the node name or by node type (i.e. `CLASS`)
+You can filter elements of a particular type using the menu on the top of the Graph Buddy panel. Layouts can help you organize nodes on the canvas. Finally, using search you can highlight elements matching the search phrase on the canvas. You can search by a part of the node name or by node type (i.e. `CLASS`).
 
 <img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
 
@@ -183,7 +182,7 @@ If you want to preserve the current graph state for later use (i.e. to present i
 ### Graph files regeneration and reindexing
 
 If you are working with a Java project, then under some circumstances (switching branches, appling a code patch, editing or removing multiple files at once) some graph files may become outdated and as a result, the plugin may not work as expected (nodes and edges may be missing from the graph or pointing to incorrect locations in the code). There currently is no automated detection for these cases. When in doubt, you should trigger the `Generate graph` action from the Main Menu to make sure you are working with up-to-date graph files.
-If you are working with a Scala project, assuming you have configured the compiler plugin correctly, you should manually trigger the `reindex graph` action from the Main Menu. This will load the newly generated graph files to the plugin.
+If you are working with a Scala project, assuming you have configured the compiler plugin correctly, you should manually trigger the `Reindex graph` action from the Main Menu. This will load the newly generated graph files to the plugin.
 
 <img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
 
