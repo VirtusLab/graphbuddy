@@ -5,7 +5,7 @@
 With today's IDEs, we are all forced to browse code written as text in flatly-structured files, with
 almost no information about the semantic dependencies between particular code units. What if we
 could take a different look and, instead of seeing just source code in text files, go through
-colorful graph nodes that instantly and clearly show you structure of your code extracted from your codebase?
+colorful graph nodes that instantly and clearly show you the structure of your code extracted from your codebase?
 
 ## How can Graph Buddy help you?
 
@@ -62,7 +62,7 @@ Java is supported out-of-the-box, no extra configuration is necessary. You just 
 
 ## Configuration for Scala projects
 
-Here, except from installing plugin in IDE, you need to configure your scala compiler. GraphBuddy has a plugin to it, which will generate graph files during compilation.
+Here, except for installing the plugin in IDE, you need to configure your scala compiler. GraphBuddy has a plugin to it, which will generate graph files during compilation.
 
 For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt` with the content:
 
@@ -83,7 +83,7 @@ Please remember to recompile the project with a new scalac plugin. In sbt:
 sbt clean test:compile
 ```
 
-Graph Buddy currently supports following scala versions:
+Graph Buddy currently supports the following scala versions:
 
 - 2.13.7
 - 2.13.6
@@ -155,11 +155,11 @@ To reindex graph manually:
 
 <img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
 
-### Adding nodes to graph
+### Adding nodes to the graph
 
-You can do this in multiple ways. The most intuitive is clicking on the code - then corresponding node should appear on plugin canvas.
+You can do this in multiple ways. The most intuitive is clicking on the code - then the corresponding node should appear on plugin canvas.
 
-Second way is using options from context menu in editor or on canvas. In editor there are some options to generate whole graph for selected place in code.
+The second way is using options from the context menu in the editor or on canvas. In the editor, there are some options to generate the whole graph for a selected place in the code.
 
 <img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
 
@@ -175,13 +175,13 @@ You can filter elements of a particular type using the menu on the top of the Gr
 
 ### Saving state
 
-If you want to preserve the current graph state for later use (i.e. to present it to your colleague), you can do this by clicking on floppy disk icon on toolbar. There you can save a snaphshot of your current work or load a previously saved snapshot. You can find those snapshots in the `.graphbuddy` folder.
+If you want to preserve the current graph state for later use (i.e. to present it to your colleague), you can do this by clicking on the floppy disk icon on the toolbar. There you can save a snapshot of your current work or load a previously saved snapshot. You can find those snapshots in the `.graphbuddy` folder.
 
 <img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
 
 ### Graph files regeneration and reindexing
 
-If you are working with a Java project, then under some circumstances (switching branches, appling a code patch, editing or removing multiple files at once) some graph files may become outdated and as a result, the plugin may not work as expected (nodes and edges may be missing from the graph or pointing to incorrect locations in the code). There currently is no automated detection for these cases. When in doubt, you should trigger the `Generate graph` action from the Main Menu to make sure you are working with up-to-date graph files.
+If you are working with a Java project, then under some circumstances (switching branches, applying a code patch, editing or removing multiple files at once) some graph files may become outdated and as a result, the plugin may not work as expected (nodes and edges may be missing from the graph or pointing to incorrect locations in the code). There currently is no automated detection for these cases. When in doubt, you should trigger the `Generate graph` action from the Main Menu to make sure you are working with up-to-date graph files.
 If you are working with a Scala project, assuming you have configured the compiler plugin correctly, you should manually trigger the `Reindex graph` action from the Main Menu. This will load the newly generated graph files to the plugin.
 
 <img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
@@ -192,7 +192,7 @@ If you are working with a Scala project, assuming you have configured the compil
 <table>
   <tr>
     <td>Graph highlighting</td>
-    <td>By clicking on nodes or edges, graph will highlight corresponding nodes and edges</td>
+    <td>By clicking on nodes or edges, the graph will highlight corresponding nodes and edges</td>
   </tr>
   <tr>
      <td>Graph data styles</td>
@@ -200,11 +200,11 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Removing data</td>
-    <td>By shift-clicking node (or choosing option in context menu), you remove it from the webview</td>
+    <td>By shift-clicking node (or choosing the option in context menu), you remove it from the webview</td>
   </tr>
   <tr>
     <td>Adding data to the graph</td>
-    <td>By double clicking on node you extend the graph by adding data corresponding with clicked node</td>
+    <td>By double-clicking on the node you extend the graph by adding data corresponding with clicked node</td>
   </tr>
   <tr>
     <td>Data positioning</td>
@@ -212,11 +212,11 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Info on hover</td>
-    <td>By hovering over node/edge, a popup appears that contains some additional info about targeted data object</td>
+    <td>By hovering over node/edge, a popup appears that contains some additional info about a targeted data object</td>
   </tr>
   <tr>
     <td>Context menu</td>
-    <td>By right clicking on canvas, you open up a context menu with options depending on clicked data: node, edge, data kind or background</td>
+    <td>By right-clicking on canvas, you open up a context menu with options depending on clicked data: node, edge, data kind, or background</td>
   </tr>
   <tr>
     <td>Flash messages</td>
@@ -229,11 +229,11 @@ If you are working with a Scala project, assuming you have configured the compil
 <table>
   <tr>
     <td>Filters</td>
-    <td>By clicking the buttons in filtering menu, you toggle visibility of corresponding node/edge kind</td>
+    <td>By clicking the buttons in the filtering menu, you toggle visibility of the corresponding node/edge kind</td>
   </tr>
   <tr>
     <td>Layouts</td>
-    <td>By switching layout in the navigation bar (layers icon), you change rendering method of the graph (classic, vertical, horizontal)</td>
+    <td>By switching layout in the navigation bar (layers icon), you change the rendering method of the graph (classic, vertical, horizontal)</td>
   </tr>
   <tr>
     <td>Search</td>
@@ -241,7 +241,7 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Settings</td>
-    <td>By selecting additional network options, you can adjust graph visibility and amount of visible information to your liking. You can also switch the view between 2d and 3d.</td>
+    <td>By selecting additional network options, you can adjust graph visibility and the amount of visible information to your liking. You can also switch the view between 2d and 3d.</td>
   </tr>
 </table>
 
@@ -258,7 +258,7 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Reorganise graph</td>
-    <td>By clicking reorganise graph button, you reorganise network nodes positions</td>
+    <td>By clicking the reorganise graph button, you reorganise network nodes positions</td>
   </tr>
   <tr>
     <td>Freeze graph</td>
@@ -270,7 +270,7 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Graph file manager</td>
-    <td>By clicking graph file manager button, you open up a modal that allows you to save current graph data snapshot or load it, from a file; default location is /workspace/.graphbuddy</td>
+    <td>By clicking the graph file manager button, you open up a modal that allows you to save the current graph data snapshot or load it, from a file; the default location is /workspace/.graphbuddy</td>
   </tr>
 </table>
 
@@ -287,7 +287,7 @@ If you are working with a Scala project, assuming you have configured the compil
   </tr>
   <tr>
     <td>Close modal</td>
-    <td>By pressing 'esc' you close currently active modal</td>
+    <td>By pressing 'esc' you close the currently active modal</td>
   </tr>
 </table>
 
