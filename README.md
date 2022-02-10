@@ -14,21 +14,19 @@ Buddy plugin provides a set of useful features and techniques that will help you
 through twisted code dependencies. At the same time, it gives you a better understanding of the code
 structure in your codebase.
 
-![Graph Buddy User flow](assets/gifs/extension-preview.gif)
+<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
 
 ---
 
 # Table of Contents
 
 - [Say hello to Graph Buddy!](#say-hello-to-graph-buddy)
-  - [Your new best pal to help you understand your Java code better](#your-new-best-pal-to-help-you-understand-your-java-code-better)
+  - [Your new best pal to help you understand your Java code better](#your-new-best-pal-to-help-you-understand-your-java-and-scala-code-better)
   - [How can Graph Buddy help you?](#how-can-graph-buddy-help-you)
 - [Table of Contents](#table-of-contents)
 - [Supported languages](#supported-languages)
-- [Installing and configuring the extension](#installing-and-configuring-the-extension)
-  - [Your project configuration](#your-project-configuration)
-    - [Java configuration](#java-configuration)
-    - [Scala configuration](#scala-configuration)
+  - [Configuration for Java projecs](#configuration-for-java-projects)
+  - [Configuration for Scala projecs](#configuration-for-scala-projects)
   - [Installing a plugin](#installing-a-plugin)
 - [How to use Graph Buddy](#how-to-use-graph-buddy)
   - [Opening the Graph Buddy board](#opening-the-graph-buddy-board)
@@ -36,10 +34,11 @@ structure in your codebase.
     - [VSCode](#vscode)
     - [Indexing the graph](#indexing-the-graph)
   - [Graph Buddy features](#graph-buddy-features)
-    - [List of functionalities](#list-of-functionalities)
-    - [Navigating through the project](#navigating-through-the-project)
-    - [Context menu in Code Editor](#context-menu-in-code-editor)
-    - [Advanced queries (very much experimental)](#advanced-queries-very-much-experimental)
+    - [Adding nodes to the graph](#adding-nodes-to-the-graph)
+    - [Filters, layouts, search](#filters-layouts-search)
+    - [Saving state](#saving-state)
+    - [Graph files regeneration and reindexing](#graph-files-regeneration-and-reindexing)
+    - [Advanced options](#advanced-options)
 - [Roadmap](#roadmap)
   - [Released](#released)
   - [Planned](#planned)
