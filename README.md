@@ -14,14 +14,14 @@ Buddy plugin provides a set of useful features and techniques that will help you
 through twisted code dependencies. At the same time, it gives you a better understanding of the code
 structure in your codebase.
 
-<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-1.gif" width="920" height="600"/>
 
 ---
 
 # Table of Contents
 
 - [Say hello to Graph Buddy!](#say-hello-to-graph-buddy)
-  - [Your new best pal to help you understand your Java code better](#your-new-best-pal-to-help-you-understand-your-java-and-scala-code-better)
+  - [Your new best pal to help you understand your Java and Scala code better](#your-new-best-pal-to-help-you-understand-your-java-and-scala-code-better)
   - [How can Graph Buddy help you?](#how-can-graph-buddy-help-you)
 - [Table of Contents](#table-of-contents)
 - [Supported languages](#supported-languages)
@@ -129,7 +129,7 @@ accordingly, showcasing semantics info about your project.
 
 Look for a 'Graph Buddy' tab in the bottom right corner and press it.
 
-<img src="assets/gifs/IntelliJ-open-plugin.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-open-plugin.gif" width="920" height="600"/>
 
 ### VSCode
 
@@ -137,7 +137,7 @@ Click the `Graph Buddy` icon in the activity bar (left), then press the `Open Gr
 button. It will open the Graph Buddy board; just wait for the reindexing process to finish and start
 browsing!
 
-<img src="assets/gifs/VSCode-open-plugin.gif" width="800" height="500"/>
+<img src="assets/gifs/VSCode-open-plugin.gif" width="920" height="600"/>
 
 ### Indexing the graph
 
@@ -152,7 +152,7 @@ To reindex graph manually:
 
 **NOTE: The plugin is optimised for working in the default, 2D mode. Some features may not correctly (or even at all) in 3D mode.**
 
-<img src="assets/gifs/IntelliJ-0.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-0.gif" width="920" height="600"/>
 
 ### Adding nodes to the graph
 
@@ -160,30 +160,30 @@ You can do this in multiple ways. The most intuitive is clicking on the code - t
 
 The second way is using options from the context menu in the editor or on canvas. In the editor, there are some options to generate the whole graph for a selected place in the code.
 
-<img src="assets/gifs/IntelliJ-1.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-1.gif" width="920" height="600"/>
 
 You can check where a given node is called using node context actions Called by & Call hierarchy. You can also find paths between nodes already added to the graph.
 
-<img src="assets/gifs/IntelliJ-2.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-2.gif" width="920" height="600"/>
 
 ### Filters, layouts, search
 
 You can filter elements of a particular type using the menu on the top of the Graph Buddy panel. Layouts can help you organize nodes on the canvas. Finally, using search you can highlight elements matching the search phrase on the canvas. You can search by a part of the node name or by node type (i.e. `CLASS`).
 
-<img src="assets/gifs/IntelliJ-3.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-3.gif" width="920" height="600"/>
 
 ### Saving state
 
 If you want to preserve the current graph state for later use (i.e. to present it to your colleague), you can do this by clicking on the floppy disk icon on the toolbar. There you can save a snapshot of your current work or load a previously saved snapshot. You can find those snapshots in the `.graphbuddy` folder.
 
-<img src="assets/gifs/IntelliJ-4.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-4.gif" width="920" height="600"/>
 
 ### Graph files regeneration and reindexing
 
 If you are working with a Java project, then under some circumstances (switching branches, applying a code patch, editing or removing multiple files at once) some graph files may become outdated and as a result, the plugin may not work as expected (nodes and edges may be missing from the graph or pointing to incorrect locations in the code). There currently is no automated detection for these cases. When in doubt, you should trigger the `Generate graph` action from the Main Menu to make sure you are working with up-to-date graph files.
 If you are working with a Scala project, assuming you have configured the compiler plugin correctly, you should manually trigger the `Reindex graph` action from the Main Menu. This will load the newly generated graph files to the plugin.
 
-<img src="assets/gifs/IntelliJ-5.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-5.gif" width="920" height="600"/>
 
 ### Advanced options
 #### Graph canvas
