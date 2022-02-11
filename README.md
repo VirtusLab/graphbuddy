@@ -129,7 +129,7 @@ accordingly, showcasing semantics info about your project.
 
 Look for a 'Graph Buddy' tab in the bottom right corner and press it.
 
-<img src="assets/gifs/IntelliJ-open-plugin.gif" width="920" height="600"/>
+<img src="assets/gifs/IntelliJ-open-plugin.gif" width="800" height="500"/>
 
 ### VSCode
 
@@ -137,7 +137,7 @@ Click the `Graph Buddy` icon in the activity bar (left), then press the `Open Gr
 button. It will open the Graph Buddy board; just wait for the reindexing process to finish and start
 browsing!
 
-<img src="assets/gifs/VSCode-open-plugin.gif" width="920" height="600"/>
+<img src="assets/gifs/VSCode-open-plugin.gif" width="800" height="500"/>
 
 ### Indexing the graph
 
