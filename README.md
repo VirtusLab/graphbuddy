@@ -14,7 +14,7 @@ Buddy plugin provides a set of useful features and techniques that will help you
 through twisted code dependencies. At the same time, it gives you a better understanding of the code
 structure in your codebase.
 
-<img src="assets/gifs/IntelliJ-1.gif" width="920" height="600"/>
+<img src="assets/gifs/Intro.gif" width="920" height="509"/>
 
 ---
 
