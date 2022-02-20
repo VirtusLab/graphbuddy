@@ -66,13 +66,13 @@ Here, except for installing the plugin in IDE, you need to configure your scala 
 For sbt you can use sbt plugin. Just create plugin file `project/graphbuddy.sbt` with the content:
 
 ```scala
-addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.15")
+addSbtPlugin("org.virtuslab.semanticgraphs" % "sbt-plugin" % "0.2.16")
 ```
 
 or add scalac compiler plugin directly:
 
 ```scala
-addCompilerPlugin("org.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.15" cross CrossVersion.full)
+addCompilerPlugin("org.virtuslab.semanticgraphs" % "scalac-plugin" % "0.2.16" cross CrossVersion.full)
 scalacOptions += "-Yrangepos"
 ```
 
@@ -84,6 +84,7 @@ sbt clean test:compile
 
 Graph Buddy currently supports the following scala versions:
 
+- 2.13.8
 - 2.13.7
 - 2.13.6
 - 2.13.5
