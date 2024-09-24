@@ -14,7 +14,7 @@ Buddy plugin provides a set of useful features and techniques that will help you
 through twisted code dependencies. At the same time, it gives you a better understanding of the code
 structure in your codebase.
 
-<img src="assets/gifs/Intro.gif" width="920" height="509"/>
+<img src="assets/gifs/Intro.gif" width="920" height="509" alt="Graph Buddy introduction"/>
 
 ---
 
@@ -120,7 +120,7 @@ accordingly, showcasing semantics info about your project.
 
 Look for a 'Graph Buddy' tab in the bottom right corner and press it.
 
-<img src="assets/gifs/IntelliJ-open-plugin.gif" width="800" height="500"/>
+<img src="assets/gifs/IntelliJ-open-plugin.gif" width="800" height="500" alt="Graph Buddy plugin in IntelliJ" />
 
 ### VSCode
 
@@ -128,7 +128,7 @@ Click the `Graph Buddy` icon in the activity bar (left), then press the `Open Gr
 button. It will open the Graph Buddy board; just wait for the reindexing process to finish and start
 browsing!
 
-<img src="assets/gifs/VSCode-open-plugin.gif" width="800" height="500"/>
+<img src="assets/gifs/VSCode-open-plugin.gif" width="800" height="500" alt="Graph Buddy plugin in VSCode" />
 
 ### Indexing the graph
 
@@ -143,7 +143,7 @@ To reindex graph manually:
 
 **NOTE: The plugin is optimised for working in the default, 2D mode. Some features may not correctly (or even at all) in 3D mode.**
 
-<img src="assets/gifs/IntelliJ-0.gif" width="920" height="600"/>
+<img src="assets/gifs/IntelliJ-0.gif" width="920" height="600" alt="GraphBuddy 2D board and interactive visualization" />
 
 ### Adding nodes to the graph
 
@@ -151,11 +151,11 @@ You can do this in multiple ways. The most intuitive is clicking on the code - t
 
 The second way is using options from the context menu in the editor or on canvas. In the editor, there are some options to generate the whole graph for a selected place in the code.
 
-<img src="assets/gifs/IntelliJ-1.gif" width="920" height="600"/>
+<img src="assets/gifs/IntelliJ-1.gif" width="920" height="600" alt="Graph Buddy board - adding nodes to the board" />
 
 You can check where a given node is called using node context actions Called by & Call hierarchy. You can also find paths between nodes already added to the graph.
 
-<img src="assets/gifs/IntelliJ-2.gif" width="920" height="600"/>
+<img src="assets/gifs/IntelliJ-2.gif" width="920" height="600" />
 
 ### Filters, layouts, search
 
